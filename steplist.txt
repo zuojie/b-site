@@ -1,0 +1,13 @@
+install nginx£º
+http://nginx.org/en/docs/windows.html
+
+install php£º
+http://www.cnblogs.com/huayangmeng/archive/2011/06/15/2081337.html
+
+install smarty£º
+
+install mysql£º
+
+
+optimization£º
+http://ixdba.blog.51cto.com/2895551/806622
