@@ -1,0 +1,753 @@
+/* @module 翻译首页 */
+.index {
+    font-family: "微软雅黑";
+    _font-family: song;
+    position: relative;
+    z-index: 2;
+}
+
+.index .big-bg-order-wrap {
+    background: url("./../images/big-bg-order-bg.png") repeat-x;
+    height: 305px;
+}
+
+.index .big-bg-order {
+    background: url("./../images/big-bg-order.png") no-repeat;
+    height: 305px;
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.index .big-bg-content {
+    margin: 0 auto;
+    padding-top: 44px;
+    width: 960px;
+}
+
+.index .big-bg-order-area {
+    background: url("./../images/index_mask.png") no-repeat;
+    color: #333;
+    font-size: 18px;
+    height: 198px;
+    padding: 22px 0 0 23px;
+    position: relative;
+}
+
+.index .trans-title {
+    color: #2081d0;
+    display: inline-block;
+    font-size: 36px;
+}
+
+.index .trans-title {
+    *display: inline;
+}
+
+.index .big-bg-order-area .fast-trans-info, .trans-introduction-title .doc-trans-info {
+    background: url("./../images/tips.png") 0 -28px no-repeat;
+    display: inline-block;
+    height: 22px;
+    margin-left: 7px;
+    width: 22px;
+}
+
+.trans-introduction-title .doc-trans-info {
+    width: 17px;
+}
+
+.index .big-bg-order-area .fast-trans-info {
+    *display: inline;
+    *margin-bottom: 10px;
+    _margin-bottom: 5px;
+}
+
+.trans-introduction-title .doc-trans-info {
+    *display: inline;
+    *margin-bottom: 5px;
+}
+
+.index .tips {
+    font-size: 12px;
+    left: 135px;
+    top: 70px;
+    _top: 60px;
+}
+
+.index .tips p {
+    width: 263px;
+}
+
+.index .tips .arrow {
+    left: 43px;
+}
+
+.index .tips .cando-info {
+    background-color: #FFF;
+    border: 1px solid #65B1F2;
+    border-top: 1px solid #FFF;
+    margin-top: -1px;
+    padding: 0 20px 12px 12px;
+    _width: 263px;
+}
+
+.index .cando {
+    background: url("./../images/tips.png") 0 -51px no-repeat;
+    float: left;
+    height: 39px;
+    padding-left: 46px;
+    width: 73px;
+}
+
+#trans-introduction .cando {
+    white-space: nowrap;
+    width: 217px;
+}
+
+#trans-introduction .cando li {
+    display: inline;
+    float: left;
+}
+
+#trans-introduction .cando .even {
+    *margin-left: 12px;
+}
+
+#trans-introduction .cando span {
+    color: #BAB9B9;
+    margin: 0 5px 0 12px;
+}
+
+.index .canntdo {
+    background: url("./../images/tips.png") 0 -93px no-repeat;
+    float: left;
+    height: 39px;
+    padding-left: 46px;
+    width: 98px;
+}
+
+.index .trans-descript {
+    color: #555;
+    font-size: 20px;
+    margin: 6px 0 32px;
+}
+
+.index .btn-order {
+    background: url("./../images/order_normal.png") 0 0 no-repeat;
+    display: block;
+    height: 47px;
+    text-indent: -9999px;
+    width: 152px;
+}
+
+.index .btn-order:hover {
+    background: url("./../images/order_hover.png") 0 0 no-repeat;
+}
+
+.index .btn-order-ie6 {
+    display: none;
+    _display: block;
+    _height: 47px;
+    _margin: -96px 0 0 23px;
+    _width: 152px;
+}
+
+#trans-introduction-bg {
+    background-color: #f6f6f6;
+}
+
+#trans-introduction {
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}
+
+#trans-introduction .trans-introduction-title {
+    padding: 30px 0 5px 23px;
+}
+
+#trans-introduction .trans-descript {
+    border-left: solid 1px #e2e2e2;
+    margin-left: 18px;
+    padding-left: 18px;
+}
+
+#trans-introduction-class {
+    height: 346px;
+    padding: 16px 0 46px;
+    _padding-bottom: 0;
+}
+
+#trans-introduction-class li {
+    float: left;
+    height: 158px;
+    margin: 0 42px 30px 0;
+    position: relative;
+    width: 292px;
+}
+
+#trans-introduction-class .last {
+    margin-right: 0;
+}
+
+#trans-introduction-class li a {
+    display: block;
+    height: 158px;
+    overflow: hidden;    /*ie6 内容下溢*/
+    position: relative;
+}
+
+#trans-introduction-class .btn {
+    bottom: 0;
+    color: #fff;
+    font-size: 14px;
+    height: 31px;
+    left: 0;
+    line-height: 31px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px 4px #555;
+    width: 88px;
+}
+
+#trans-introduction-class .trans-introduction-intro {
+    bottom: 0;
+    display: none;
+    font-size: 14px;
+    _height: 158px;
+    left: 0;
+    line-height: 24px;
+    padding: 30px 27px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#trans-introduction-class .trans-introduction-intro {
+    background: none;
+}
+
+#trans-introduction-class .trans-thesis .hover .trans-introduction-intro,
+#trans-introduction-class .trans-thesis a:hover .trans-introduction-intro {
+    background: #4a86cf;
+}
+
+#trans-introduction-class .trans-resume .hover .trans-introduction-intro,
+#trans-introduction-class .trans-resume a:hover .trans-introduction-intro {
+    background-color: #edc266;
+
+}
+
+#trans-introduction-class .trans-intro .hover .trans-introduction-intro,
+#trans-introduction-class .trans-intro a:hover .trans-introduction-intro {
+    background-color: #72c6d8;
+}
+
+#trans-introduction-class .trans-contract .hover .trans-introduction-intro,
+#trans-introduction-class .trans-contract a:hover .trans-introduction-intro {
+    background-color: #bd9577;
+}
+
+#trans-introduction-class .trans-abroad .hover .trans-introduction-intro,
+#trans-introduction-class .trans-abroad a:hover .trans-introduction-intro {
+    background-color: #8acb87;
+}
+
+#trans-introduction-class .trans-more .hover .trans-introduction-intro,
+#trans-introduction-class .trans-more a:hover .trans-introduction-intro {
+    background-color: #e382b4;
+}
+
+#trans-introduction-class a:hover .trans-introduction-intro,
+#trans-introduction-class .hover .trans-introduction-intro {
+    display: block;
+}
+
+.btn-thesis {
+    background-color: #4a86cf;
+}
+
+.btn-resume {
+    background-color: #edc266;
+}
+
+#trans-introduction-class .btn-intro {
+    background-color: #72c6d8;
+    width: 129px;
+}
+
+#trans-introduction-class .btn-contract {
+    background-color: #bd9577;
+    width: 129px;
+}
+
+.btn-abroad {
+    background-color: #8acb87;
+}
+
+.btn-more {
+    background-color: #e382b4;
+}
+
+/*@component 文档 快速翻译宣传图*/
+.index .trans-introduction .dynamic-picture {
+    width: 960px;
+    height: 338px;
+}
+
+/*@component 进入文档 快速翻译 banner*/
+.index .doc-trans,
+.index .fast-trans {
+    position: relative;
+    float: left;
+    width: 480px;
+    height: 68px;
+    background: url('./../images/indexb.png') no-repeat;
+}
+
+.index .intro-quick-trans .fast-trans {
+    color: #315D85;
+    background-position: 0 -86px;
+}
+
+.index .intro-doc-trans .fast-trans {
+    color: #6C737D;
+    background-position: 0 0;
+}
+
+.index .intro-quick-trans .doc-trans {
+    color: #6C737D;
+    background-position: -501px 0;
+}
+
+.index .intro-doc-trans .doc-trans {
+    color: #315D85;
+    background-position: -501px -86px;
+}
+
+/*@component 进入 按钮*/
+.index .fast-trans a,
+.index .doc-trans a {
+    width: 117px;
+    height: 42px;
+    background: url('./../images/indexb.png') no-repeat;
+    padding: 0;
+    position: absolute;
+    top: 8px;
+    left: 355px;
+}
+
+.index .intro-quick-trans .fast-trans a,
+.index .intro-doc-trans .doc-trans a {
+    background-position: 0 -175px;
+}
+
+.index .intro-quick-trans .doc-trans a,
+.index .intro-doc-trans .fast-trans a {
+    background-position: -122px -175px;
+}
+
+.index .intro-quick-trans .fast-trans a:hover,
+.index .intro-doc-trans .doc-trans a:hover {
+    background-position: -844px -175px;
+}
+
+.index .fast-desc,
+.index .doc-desc {
+    position: absolute;
+    top: 33px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.index .fast-desc {
+    left: 109px;
+}
+
+.index .doc-desc {
+    left: 98px;
+}
+
+.index .tab-wrap {
+    background-color: #fff;
+}
+
+.index .tab {
+    border-bottom: dotted 1px #ccc;
+    clear: both;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 28px 0 33px 50px;
+    width: 960px;
+    zoom: 1;
+}
+
+.index .tab .tab-sec1,
+.index .tab .tab-sec2 {
+    float: left;
+    border-right: 1px solid #e6e6e6;
+}
+
+.index .tab .tab-sec1 {
+    width: 280px;
+    height: 170px;
+    line-height: 28px;
+}
+
+.index .tab .tab-sec2 {
+    color: #555;
+    font-size: 14px;
+    width: 265px;
+    height: 170px;
+    margin-left: 33px;
+}
+
+.index .tab .tab-sec1 ul {
+    width: 288px;
+}
+
+.index .tab .tab-sec1 .event {
+    color: #9b2c2c;
+}
+
+.index .tab .tab-sec1 .event a,
+.index .tab .tab-sec2 .event a {
+    color: #9b2c2c;
+    text-decoration: none;
+}
+
+.index .tab .tab-sec1 .event a:hover,
+.index .tab .tab-sec2 .event a:hover {
+    background: none;
+    text-decoration: underline;
+}
+
+.index .tab .tab-sec1 .logo {
+    width: 68px;
+    height: 28px;
+    background: url('./../images/indexb.png') no-repeat -251px -172px;
+}
+
+.index .tab .tab-sec1 .notice {
+    color: #707070;
+    height: 28px;
+}
+
+.index .tab .tab-sec1 .notice i {
+    background: url("./../images/indexb.png") 0 -266px no-repeat;
+    background: url("./../images/indexb-arrow-ie6.png") no-repeat;
+    _margin-right: 4px;
+    _top: 3px;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+}
+
+.index .tab .tab-sec1 .notice a, .index .tab .tab-sec2 .notice a {
+    color: #555;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.index .tab .tab-sec1 .notice a:hover, .index .tab .tab-sec2 .notice a:hover {
+    background: none;
+    text-decoration: underline;
+}
+
+.index .tab .tab-sec1 .notice .right {
+    float: left;
+    margin-left: 20px;
+    line-height: 28px;
+}
+
+.index .tab .tab-sec2 .menu, .index .tab .tab-sec1 .menu {
+    color: #2081d0;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 20px 15px;
+}
+
+.index .tab .tab-sec2 .menu {
+    margin-left: 0;
+}
+
+.index .tab .tab-sec2 .menu .menu-concerns {
+    background-position: -408px -178px;
+}
+
+.index .tab .tab-sec2 .menu .menu-favorable {
+    background-position: -408px -204px;
+}
+
+.index .tab-sec2 .contact-title {
+    line-height: 28px;
+    margin-top: 4px;
+}
+
+.index .tab-sec2 .contact-num {
+    font-size: 18px;
+}
+
+.index .tab .tab-sec3 {
+    border: 0;
+    margin-left: 21px;
+    width: 309px;
+}
+
+.index .tab .tab-sec2 .tab-menu-suggestion a {
+    color: #000000;
+}
+
+.index .tab .tab-sec2 .tab-menu-suggestion a:hover {
+    background: none;
+}
+
+.index .tab .tab-sec2 .small-icon-bar {
+    width: 200px;
+    height: 23px;
+    line-height: 23px;
+    position: absolute;
+    top: 68px;
+    left: 73px;
+}
+
+.index .tab .tab-sec2 .small-icon-bar a {
+    display: inline-block;
+    width: 23px;
+    height: 0;
+    background: url("./../images/indexb.png");
+    padding-top: 23px;
+    margin-right: 10px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.index .tab .tab-sec2 .small-icon-bar .sina-logo {
+    background-position: -716px -181px;
+}
+
+.index .tab .tab-sec2 .small-icon-bar .tencent-logo {
+    background-position: -778px -181px;
+}
+
+.index .tab .tab-sec2 .small-icon-bar .netease-logo {
+    background-position: -747px -181px;
+}
+
+.index .tab .tab-sec2 table {
+    width: 80%;
+    margin: 0 auto;
+    height: 100px;
+    box-shadow: none;
+}
+
+.index .tab .tab-sec2 table tr td {
+    text-align: center;
+}
+
+.index .tab .tab-sec2 .netease,
+.index .tab .tab-sec2 .sina,
+.index .tab .tab-sec2 .tencent {
+    height: 60px;
+}
+
+.index .tab .tab-sec2 .netease a,
+.index .tab .tab-sec2 .sina a,
+.index .tab .tab-sec2 .tencent a {
+    display: inline-block;
+    color: #707070;
+    width: 50px;
+    height: 40px;
+    background: url('./../images/indexb.png') no-repeat;
+}
+
+.index .tab .tab-sec2 .netease a div,
+.index .tab .tab-sec2 .sina a div,
+.index .tab .tab-sec2 .tencent a div {
+    margin-top: 40px;
+}
+
+.index .tab .tab-sec2 .netease a {
+    background-position: -600px -171px;
+}
+
+.index .tab .tab-sec2 .sina a {
+    background-position: -555px -171px;
+}
+
+.index .tab .tab-sec2 .tencent a {
+    background-position: -650px -171px;
+}
+
+#favorite-panel {
+    margin: 0 auto;
+    width: 960px;
+}
+
+#favPanel {
+    width: 960px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #fcfcf1;
+    border: 1px solid #e8c442;
+    font-size: 12px;
+}
+
+#favPanel #tipsDesc {
+    float: left;
+    margin-left: 15px;
+    _margin-left: 7px;
+    color: #ca7308;
+}
+
+#favPanel #tipsDesc span {
+    color: #a37338;
+    font-weight: bold;
+}
+
+#favPanel #addFavorite {
+    float: left;
+    width: 103px;
+    position: relative;
+}
+
+#favPanel #addFavorite a {
+    position: absolute;
+    top: 6px;
+    width: 88px;
+    height: 22px;
+    margin: 0 7px;
+    text-align: center;
+    line-height: 22px;
+    color: #a37338;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #f2bd00;
+    border-bottom: 1px solid #9f8029;
+}
+
+#favPanel #addFavorite a:hover {
+    background-color: #fae188;
+}
+
+#favPanel #stopSuggest {
+    float: right;
+    margin-right: 15px;
+    _margin-right: 7px;
+}
+
+#favPanel #stopSuggest a {
+    text-decoration: none;
+    color: #707070;
+}
+
+#favPanel #stopSuggest a {
+    background: none;
+    color: #707070;
+}
+
+/* gonghao@07-23	增加合作伙伴 */
+.index .cooperator-wrap {
+    background-color: #fff;
+    padding: 20px 0 41px;
+}
+
+.index .cooperator {
+    margin: 0 auto;
+    overflow: hidden;
+    height: 40px;
+    width: 960px;
+}
+
+.index .cooperator span {
+    color: #999;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 22px;
+}
+
+.index .cooperator a {
+    display: inline-block;
+    height: 40px;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+.index .cooperator .cooper-1 {
+    width: 139px;
+    margin-left: 39px;
+    background: url("./../images/indexb.png") -227px -417px no-repeat;
+}
+
+.index .cooperator .cooper-2 {
+    width: 102px;
+    margin-left: 34px;
+    background: url("./../images/indexb.png") -369px -418px no-repeat;
+}
+
+.index .cooperator .cooper-3 {
+    width: 133px;
+    margin-left: 34px;
+    background: url("./../images/indexb.png") -474px -417px no-repeat;
+}
+
+.index .cooperator .cooper-4 {
+    width: 132px;
+    margin-left: 30px;
+    background: url("./../images/indexb.png") -610px -417px no-repeat;
+}
+
+.index .cooperator .cooper-5 {
+    width: 129px;
+    margin-left: 42px;
+    background: url("./../images/indexb.png") -747px -417px no-repeat;
+    cursor: default;
+}
+
+/*限时优惠 首页提醒*/
+.intro-doc-trans #temp-events {
+    display: none;
+}
+
+#temp-events {
+    position: absolute;
+    width: 70px;
+    height: 79px;
+    top: -3px;
+    left: 328px;
+    background: url("./../images/privilege.png") 0 0 no-repeat;
+    padding: 0;
+}
+
+#temp-events:hover {
+    background-position: -74px 0;
+}
+
+/* 2012一周年活动banner */
+.index .banner {
+    width: 960px;
+    height: 65px;
+    display: block;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.index .birth2012_banner {
+    background: url('./../images/birth2012_banner.jpg') no-repeat;
+}
+
+.index .resume_banner {
+    background: url('./../images/banner.jpg') no-repeat;
+}
+
+.index .paperpro_banner {
+    background: url('./../images/paperprobanner.jpg') no-repeat;
+}
+
+/* 2012-10-15 @gonghao 限时优惠标题 */
+.main-title {
+    color: #9B2C2C;
+    font-weight: bold;
+}
