@@ -78,7 +78,7 @@ youdao.loc = function() {
     var a = window;
     var c = document;
     var b = c.location;
-    if ( typeof (youdao_url_type) == "undefined" || youdao_url_type == null) {
+    if (typeof(youdao_url_type) == "undefined" || youdao_url_type == null) {
         youdao_url_type = 0
     }
     if (youdao_url_type == 0) {
@@ -88,7 +88,7 @@ youdao.loc = function() {
             b = c.referrer && "" != c.referrer ? c.referrer : c.location
         } else {
             if (youdao_url_type == 2) {
-                if ( typeof (youdao_virtual_url) == "undefined" || youdao_virtual_url == null || youdao_virtual_url == "") {
+                if (typeof(youdao_virtual_url) == "undefined" || youdao_virtual_url == null || youdao_virtual_url == "") {
                     b = a && a.top && a.top.location && "" != a.top.location ? a.top.location : c.location
                 } else {
                     if (youdao_virtual_url.charAt(0) != "/") {
@@ -108,10 +108,10 @@ youdao.loc = function() {
 };
 youdao.mapUrlPattern = function(g) {
     var a = {
-        label : "",
-        value : ""
+        label: "",
+        value: ""
     };
-    if ( typeof (youdao_conv_url_map) != "undefined" && youdao_conv_url_map) {
+    if (typeof(youdao_conv_url_map) != "undefined" && youdao_conv_url_map) {
         for (var b in youdao_conv_url_map) {
             if ("" != b) {
                 var f = new RegExp(b, "ig");
@@ -121,8 +121,7 @@ youdao.mapUrlPattern = function(g) {
                         try {
                             a.label = c[0];
                             a.value = c[1]
-                        } catch(d) {
-                        }
+                        } catch (d) {}
                         return a
                     }
                     break
@@ -145,9 +144,9 @@ youdao.serviceUrl = function(g) {
                 h = youdao.convertId(h);
                 f = h
             } else if ("youdao_conv_label" == a[d] && ((!h) || "" == h)) {
-                    var b = youdao.mapUrlPattern(e);
-                    h = b.label;
-                    j += youdao.concat("youdao_conv_value", b.value)
+                var b = youdao.mapUrlPattern(e);
+                h = b.label;
+                j += youdao.concat("youdao_conv_value", b.value)
             }
             j += youdao.concat(a[d], h)
         }
@@ -157,7 +156,7 @@ youdao.serviceUrl = function(g) {
 };
 youdao.pageView = function() {
     youdao.imageRequest(youdao.serviceUrl(""));
-    if ( typeof youdao_record_click != "undefined" && youdao_record_click) {
+    if (typeof youdao_record_click != "undefined" && youdao_record_click) {
         var a = document;
         a.addEventListener ? a.addEventListener("click", youdao.click, false) : a.attachEvent("onclick", youdao.click)
     }
@@ -214,4 +213,4 @@ youdao.imageRequest = function(b) {
     };
     youdao.img = null
 };
-youdao.pageView(); 
+youdao.pageView();

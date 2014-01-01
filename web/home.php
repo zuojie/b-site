@@ -6,7 +6,7 @@
 			<script type="text/javascript" src="./js/monitor.js" charset="utf-8"></script>
 			<script type="text/javascript" src="./js/home/textButton.js" charset="utf-8"></script>
     
-    <title>有道专业翻译_网易旗下专业人工翻译公司 | 在线翻译 | 英文翻译</title>
+    <title>元培专业人工翻译 | 在线翻译 | 英文翻译</title>
     <meta name="description" content="">
     <meta name="keywords" content="在线翻译，英文翻译，英语专业翻译，英文简历翻译，合同翻译，论文翻译，公司简介翻译、产品介绍翻译">
     <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
@@ -20,27 +20,14 @@
     <![endif]-->
 	<script type="text/javascript" async="" src="./js/conversion.js"></script>
 	<script type="text/javascript" async="" src="./js/home/fpass.js"></script>
-	<script type="text/javascript" async="" src="./js/ga.js"></script>
-	<script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-29829017-1']);
-    _gaq.push(['_trackPageview']);
-    (function () {
-        var ga = document.createElement('script');
-        ga.type = 'text/javascript';
-        ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(ga, s);
-    })();
-    </script>
-<script async="true" type="text/javascript" src="./js/home/roundtrip.js"></script>
-<script async="true" type="text/javascript" src="./js/home/RLBFEI7CUZATHM373AWPCD"></script>
-<div style="width: 1px; height: 1px; display: inline;">
-	<img height="1" width="1" style="border-style:none;" alt="" src="./images/out">
-    <img height="1" width="1" style="border-style:none;" alt="" src="./images/saved_resource">
-    <img src="./images/seg" width="1" height="1">
-</div>
+    <script async="true" type="text/javascript" src="./js/home/roundtrip.js"></script>
+    <script async="true" type="text/javascript" src="./js/RLBFEI7CUZATHM373AWPCD"></script>
+
+    <div style="width: 1px; height: 1px; display: inline;">
+	   <img height="1" width="1" style="border-style:none;" alt="" src="./images/out">
+        <img height="1" width="1" style="border-style:none;" alt="" src="./images/saved_resource">
+        <img src="./images/seg" width="1" height="1">
+    </div>
 </head>
 <body lim:visitorcapacity="1">
 <div id="doc1">
@@ -55,20 +42,20 @@
         <a href="./home.php" class="logo clog-js" data-act="logo"></a>
 		<h1 class="dn">元培专业人工翻译</h1>
 		<strong class="dn">原北京大学外语翻译中心</strong>
-<!--[if IE 6]>
-<script src="./js/home/DD_belatedPNG_0.0.8a.js"></script>
-<script>
-    DD_belatedPNG.fix('.logo');
-    DD_belatedPNG.fix('.netease-logo,.sina-logo,.tencent-logo');
-</script>
-<![endif]-->
+        <!--[if IE 6]>
+        <script src="./js/home/DD_belatedPNG_0.0.8a.js"></script>
+        <script>
+            DD_belatedPNG.fix('.logo');
+            DD_belatedPNG.fix('.netease-logo,.sina-logo,.tencent-logo');
+        </script>
+        <![endif]-->
         <div class="nav-list">
             <div class="account-item li-left"></div>
             <div class="li-left login-div">
 			    <a href="javascript:void(0)" class="login-ctrl clog-js" data-act="login" hidefocus="true" rel="nofollow">登录</a>
 		    </div>
             <div class="li-left reg-div">
-			    <a href="" class="reg-ctrl clog-js" data-act="reg" target="_blank" hidefocus="true" rel="nofollow">注册</a>
+			    <a href="reg.php" class="reg-ctrl clog-js" data-act="reg" target="_blank" hidefocus="true" rel="nofollow">注册</a>
 		    </div>
             <div class="li-left line-left">|</div>
             <div class="li-left">
@@ -79,7 +66,7 @@
 			</div>
             <div class="logout-div li-left">
 			    <span class="line-right">|</span>
-				<a href="" class="logout-ctrl clog-js" data-act="logoff" hidefocus="true">退出</a>
+				<a href="logout.php" class="logout-ctrl clog-js" data-act="logoff" hidefocus="true">退出</a>
 			</div>
         </div>
         <div class="tips ">
@@ -238,8 +225,8 @@
             </div>
             <div class="tab-sec2">
                 <div class="menu">联系方式</div>
-                <div class="contact-title">免费咨询电话</div>
-                <div class="contact-num">400-6608-163</div>
+                <div class="contact-title">免费咨询：</div>
+                <div class="contact-num">400-911-9797</div>
             </div>
             <div class="tab-sec1 tab-sec3">
                 <div class="menu">最新公告</div>
@@ -288,8 +275,8 @@
 		<a href="http://survey2.163.com/html/zyfy_satisfiction/paper.html?site=fankui" class="clog-js" data-act="feedback" target="_blank" rel="nofollow">意见反馈</a>
     </p>
     <p>
-        <span>版权所有©2003----2013</span>
-        <span>元培世纪（北京）教育科技有限公司 | </span>
+        <span>版权所有©2002----2013</span>
+        <span>元培世纪(北京)教育科技有限公司 | </span>
         <span>隐私政策 | </span>
 		<span>使用条款</span>
     </p>

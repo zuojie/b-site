@@ -3,3 +3,5 @@
 3.注册页面，注册接口
 4.退出接口
 5.在线咨询
+6.terms-of-service.php 服务条款
+7.why-fast.php 了解快速翻译服务
