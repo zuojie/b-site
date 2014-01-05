@@ -4645,8 +4645,8 @@ define("business/consts", function(a, b) {
 		baseUrl: "http://f.youdao.com",
 		en2zh: "0.45",
 		zh2en: "0.29",
-		state: "on",
-		resourceBase: "http://shared.ydstatic.com/at/2.0.6a"
+		state: "off",
+		resourceBase: "http://shared.ydstatic.com/at/2.0.6b"
 	}
 });
 define("business/tmpl", function(a, b) {
@@ -4857,7 +4857,7 @@ define("business/tmpl", function(a, b) {
 		},
 		favoratePanelMsg: function(a) {
 			var b = "";
-			c.browser.webkit || c.browser.opera ? b = '<div id="favPanel"><div id="tipsDesc">按<span>CTRL+D</span>快速收藏有道专业翻译，下次轻松访问！</div><div id="stopSuggest"><a id="stopSuggestA" class="clog-js" data-act="cancel-favorite-tips" href="javascript:void(0);">不再提示</a></div></div>' : b = '<div id="favPanel"><div id="tipsDesc">把专业翻译加入收藏夹，下次轻松访问</div><div id="addFavorite"><a id="addFavoriteA" class="clog-js" data-act="add-to-favorites" href="javascript:void(0);">加为收藏</a></div><div id="stopSuggest"><a id="stopSuggestA" class="clog-js" data-act="cancel-favorites-tips" href="javascript:void(0);">不再提示</a></div></div>';
+			c.browser.webkit || c.browser.opera ? b = '';
 			return function() {
 				return b
 			}

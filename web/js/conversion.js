@@ -151,7 +151,7 @@ youdao.serviceUrl = function(g) {
             j += youdao.concat(a[d], h)
         }
     }
-    j = youdao.protocol() + "//" + youdao_conv_host + c + f + "/conv.s?random=" + (new Date()).getTime() + j;
+    j = "";//youdao.protocol() + "//" + youdao_conv_host + c + f + "/conv.s?random=" + (new Date()).getTime() + j;
     return j + youdao.urlInfo(g)
 };
 youdao.pageView = function() {
@@ -187,7 +187,7 @@ youdao.cmImageRequest = function() {
     var b = "cm_" + (+new Date());
     youdao.img
     youdao.img = window[b] = new Image(1, 1);
-    youdao.img.src = "http://dsp.youdao.com/cf.gif?source=" + a + "&r=" + (new Date()).getTime() + "&dgul=1559324";
+    youdao.img.src = "";//http://dsp.youdao.com/cf.gif?source=" + a + "&r=" + (new Date()).getTime() + "&dgul=1559324";
     youdao.img.style.display = 'none';
     youdao.img.onload = function() {
         window[b] = null

@@ -2,102 +2,89 @@
 <html>
     <head>
 	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		    <script type="text/javascript" src="./js/textStatic.js"></script>
-			<script type="text/javascript" src="./js/monitor.js" charset="utf-8"></script>
-			<script type="text/javascript" src="./js/home/textButton.js" charset="utf-8"></script>
-    
-    <title>元培专业人工翻译 | 在线翻译 | 英文翻译</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="在线翻译，英文翻译，英语专业翻译，英文简历翻译，合同翻译，论文翻译，公司简介翻译、产品介绍翻译">
-    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/indexb.css">    
-	<!--[if IE 6]>
-    <script src="./js/home/DD_belatedPNG_0.0.8a.js"></script>
-    <script>
-        DD_belatedPNG.fix('.big-bg-order-area, .btn-order, .notice i, .tips .arrow, .tips .close, .fast-trans-info, .cando, .canntdo, .doc-trans-info');
-    </script>
-    <![endif]-->
-	<script type="text/javascript" async="" src="./js/conversion.js"></script>
-	<script type="text/javascript" async="" src="./js/home/fpass.js"></script>
-    <script async="true" type="text/javascript" src="./js/home/roundtrip.js"></script>
-    <script async="true" type="text/javascript" src="./js/RLBFEI7CUZATHM373AWPCD"></script>
-
-    <div style="width: 1px; height: 1px; display: inline;">
-	   <img height="1" width="1" style="border-style:none;" alt="" src="./images/out">
-        <img height="1" width="1" style="border-style:none;" alt="" src="./images/saved_resource">
-        <img src="./images/seg" width="1" height="1">
-    </div>
+		<script type="text/javascript" src="./js/textStatic.js"></script>
+		<script type="text/javascript" src="./js/monitor.js" charset="utf-8"></script>
+        <title>元培专业人工翻译 | 在线翻译 | 英文翻译</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="在线翻译，英文翻译，英语专业翻译，英文简历翻译，合同翻译，论文翻译，公司简介翻译、产品介绍翻译">
+        <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/indexb.css">    
+	    <!--[if IE 6]>
+        <script src="./js/home/DD_belatedPNG_0.0.8a.js"></script>
+        <script>
+            DD_belatedPNG.fix('.big-bg-order-area, .btn-order, .notice i, .tips .arrow, .tips .close, .fast-trans-info, .cando, .canntdo, .doc-trans-info');
+        </script>
+        <![endif]-->
+	    <script type="text/javascript" async="" src="./js/conversion.js"></script>
+	    <script type="text/javascript" async="" src="./js/home/fpass.js"></script>
+        <script async="true" type="text/javascript" src="./js/home/roundtrip.js"></script>
+        <script async="true" type="text/javascript" src="./js/RLBFEI7CUZATHM373AWPCD"></script>
 </head>
 <body lim:visitorcapacity="1">
 <div id="doc1">
     <div id="hd">
+        <div class="hd-logo">
+            <div class='nav-logo dline'>
+            <!--<a href="./home.php" class="logo clog-js" data-act="logo"></a>-->            
+		         <strong class="size20 fontmicro">元培专业人工翻译</strong>
+		         <i class="size12 fontsong" style="color: black;">&nbsp;&nbsp;原北京大学外语翻译中心</i>
+            </div>
+            <div class="nav-center dline">
+                <strong class="size14 fontmicro">免费咨询：400-911-9797</strong>
+            </div>
+            <div class="nav-list dline">
+                <div class="account-item li-left"></div>
+                <div class="li-left login-div">
+			        <a href="javascript:void(0)" class="login-ctrl clog-js" data-act="login" hidefocus="true" rel="nofollow">登录</a>
+		        </div>
+                <div class="li-left reg-div">
+			        <a href="reg.php" class="reg-ctrl clog-js" data-act="reg" target="_blank" hidefocus="true" rel="nofollow">注册</a>
+		        </div>
+                <div class="li-left line-left">|</div>
+                <div class="li-left">
+			        <a class="my-account clog-js" href="javascript:void(0)" data-act="my-account" data-href="user.s?method=panel" hidefocus="true" rel="nofollow">我的账户</a>
+		        </div>
+                <div class="li-left">
+			        <a class="translate-result clog-js" href="javascript:void(0)" data-act="translate-result" data-href="user.s?method=translateResult" hidefocus="true" rel="nofollow">翻译记录</a>
+			    </div>
+                <div class="logout-div li-left">
+			        <span class="line-right">|</span>
+				    <a href="logout.php" class="logout-ctrl clog-js" data-act="logoff" hidefocus="true">退出</a>
+			    </div>
+            </div>
+        </div>
+        <hr width=900px>
         <div id="banner" class="banner">
-            <div class="banner-wrap">
+            <div >
                 <a class="join-in" href=""></a>
             </div>
         </div>
-        <div id="favorite-panel"></div>
-        <div class="hd-logo clear">
-        <a href="./home.php" class="logo clog-js" data-act="logo"></a>
-		<h1 class="dn">元培专业人工翻译</h1>
-		<strong class="dn">原北京大学外语翻译中心</strong>
-        <!--[if IE 6]>
-        <script src="./js/home/DD_belatedPNG_0.0.8a.js"></script>
-        <script>
-            DD_belatedPNG.fix('.logo');
-            DD_belatedPNG.fix('.netease-logo,.sina-logo,.tencent-logo');
-        </script>
-        <![endif]-->
-        <div class="nav-list">
-            <div class="account-item li-left"></div>
-            <div class="li-left login-div">
-			    <a href="javascript:void(0)" class="login-ctrl clog-js" data-act="login" hidefocus="true" rel="nofollow">登录</a>
-		    </div>
-            <div class="li-left reg-div">
-			    <a href="reg.php" class="reg-ctrl clog-js" data-act="reg" target="_blank" hidefocus="true" rel="nofollow">注册</a>
-		    </div>
-            <div class="li-left line-left">|</div>
-            <div class="li-left">
-			    <a class="my-account clog-js" href="javascript:void(0)" data-act="my-account" data-href="user.s?method=panel" hidefocus="true" rel="nofollow">我的账户</a>
-		    </div>
-            <div class="li-left">
-			    <a class="translate-result clog-js" href="javascript:void(0)" data-act="translate-result" data-href="user.s?method=translateResult" hidefocus="true" rel="nofollow">翻译记录</a>
-			</div>
-            <div class="logout-div li-left">
-			    <span class="line-right">|</span>
-				<a href="logout.php" class="logout-ctrl clog-js" data-act="logoff" hidefocus="true">退出</a>
-			</div>
-        </div>
-        <div class="tips ">
-            <p>这里，可以查询翻译结果和申请修改！</p>
-            <i class="arrow"></i>
-            <a class="close" href="javascript:void(0);"></a>
+        <hr width=900px>
+        <div class="contact clear"><div class="navigation">
+            <ul class="nav-menu">
+                <li class="nav-li"><a href="home.php" hidefocus="true" class="current size20">首页</a></li>
+
+                <li class="nav-li"><a href="thesis.php" class="clog-js size16" data-act="fast-page" hidefocus="true">专业论文翻译</a></li>
+
+                <li class="nav-li"><a href="cv.php" class="clog-js size16" data-act="doc-page" hidefocus="true">简历/简介翻译</a></li>                
+
+                <li class="nav-li"><a href="about.php" class="clog-js size16" data-act="service-statement" hidefocus="true" target="_blank">产品/资料翻译</a></li>
+
+                <li class="nav-li"><a href="abroad.php" class="clog-js size16" data-act="examples" hidefocus="true" target="_blank">留学/移民翻译</a></li>
+
+                <li class="nav-li"><a href="service.php" class="clog-js size16" data-act="examples" hidefocus="true" target="_blank">更多服务</a></li>
+
+            </ul>
+            <ul id="docTransMenu" class="hidden">
+                <li class=""><a class="menu-thesis" href="thesis.php">专业论文</a></li>
+                <li><a class="menu-resume" href="cv.php">简历简介</a></li>
+                <li><a class="menu-abroad" href="abroad.php">留学移民</a></li>
+                <li><a class="menu-intro" href="intro.php">公司产品介绍</a></li>
+                <li class="last"><a class="menu-contract" href="contract.php">法律合同标书</a></li>
+            </ul>
         </div>
     </div>
-    <div class="contact clear"><div class="navigation">
-    <ul class="nav-menu">
-        <li><a href="./首页_files/首页.htm" hidefocus="true" class="current">首页</a></li>
-        <li><div class="seperator"></div></li>
-        <li><a href="./fast.php" class="clog-js" data-act="fast-page" hidefocus="true">快速翻译</a></li>
-        <li class="seperator"></li>
-        <li><a href="file.php" class="clog-js doc-trans" data-act="doc-page" hidefocus="true">文档翻译</a></li>                
-        <li class="seperator"></li>
-        <li><a href="about.php" class="clog-js" data-act="service-statement" hidefocus="true" target="_blank">服务说明</a></li>
-        <li class="seperator"></li>
-        <li><a href="examples.php" class="clog-js" data-act="examples" hidefocus="true" target="_blank">翻译示例</a></li>
-        <li class="suggestion"></li>
-    </ul>
-    <iframe class="Menu-Mask" style="display: none;"></iframe>
-    <ul id="docTransMenu" class="hidden">
-        <li class=""><a class="menu-thesis" href="thesis.php">专业论文</a></li>
-        <li><a class="menu-resume" href="cv.php">简历简介</a></li>
-        <li><a class="menu-abroad" href="abroad.php">留学移民</a></li>
-        <li><a class="menu-intro" href="intro.php">公司产品介绍</a></li>
-        <li class="last"><a class="menu-contract" href="contract.php">法律合同标书</a></li>
-    </ul>
-</div>
-</div>
 </div>
 <div id="bd" class="index">
     <div class="big-bg-order-wrap">
@@ -266,14 +253,6 @@
 </div>
 
 <div id="ft">
-    <p>
-        <a href="http://fanyi.youdao.com/" target="_blank" rel="nofollow">有道翻译</a>-
-		<a href="http://www.youdao.com/" target="_blank" rel="nofollow">有道首页</a>-
-		<a href="http://www.youdao.com/about/index.html" target="_blank" rel="nofollow">关于有道</a>-
-		<a href="http://i.youdao.com/" target="_blank" rel="nofollow">官方博客</a>-
-		<a href="http://f.youdao.com/?path=terms-of-service" target="_blank" rel="nofollow">有道专业翻译服务条款</a>-
-		<a href="http://survey2.163.com/html/zyfy_satisfiction/paper.html?site=fankui" class="clog-js" data-act="feedback" target="_blank" rel="nofollow">意见反馈</a>
-    </p>
     <p>
         <span>版权所有©2002----2013</span>
         <span>元培世纪(北京)教育科技有限公司 | </span>

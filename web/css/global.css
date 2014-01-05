@@ -32,6 +32,14 @@ a {
     _blr: expression(this.onFocus = this.blur());;
 }
 
+.dline {
+    display: inline-block;
+}
+
+.nav-li {
+    margin-right: 25px;
+}
+
 .message-box a, .message-box2 a, .message-box-baojia a, .message-box-fast a {
     padding: 0;
 }
@@ -136,9 +144,7 @@ textarea {
 /* 总体居中 */
 
 .banner {
-    background-color: #eaeaea;
-    overflow: hidden;
-    position: relative;
+
 }
 
 .banner-wrap {
@@ -169,14 +175,15 @@ textarea {
 #hd {
     background-color: #fff;
     margin: 0 auto;
-    min-width: 960px;
+    min-width: 900px;
     zoom: 1;
     z-index: 10;
+    padding-top: 15px;
 }
 
 #hd .hd-logo {
     position: relative;
-    width: 960px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -189,12 +196,17 @@ textarea {
     padding: 0;
 }
 
+.nav-logo {
+    width: 425px;
+    padding-left: 3px;
+}
+
 /* 导航 */
 #hd .nav-list {
     float: right;
-    margin: 29px 0 27px 0;
-    *margin-top: 31px;
-    position: relative;
+    bottom: 0;
+    right: 0;
+    position: absolute;
 }
 
 #hd .nav-list .li-left {
@@ -264,7 +276,6 @@ i.large {
 }
 
 .contact {
-    border-top: solid 1px #E2E2E2;
 }
 
 .contact a:hover {
@@ -300,7 +311,7 @@ i.large {
     line-height: 23px;
     margin: 0 auto;
     position: relative;
-    width: 960px;
+    width: 900px;
     z-index: 10;
 }
 
@@ -388,7 +399,7 @@ i.large {
 /* 框架 */
 #bd {
     background-color: #f2f4f7;
-    min-width: 960px;
+    min-width: 900px;
     overflow: hidden;
     position: relative;
 }
@@ -896,9 +907,52 @@ label {
     background: url('./../images/onlineAsk.png') no-repeat;
 }
 
-/* hide class by gonghao@2012-09-26 */
 .dn {
     display: none;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.size22 {
+    font-size: 22px;
+}
+
+.size20 {
+    font-size: 20px;
+}
+
+.size18 {
+    font-size: 18px;
+}
+
+.size14 {
+    font-size: 14px;
+}
+
+.size12 {
+    font-size: 12px;
+}
+
+.fontsong {
+    font-family: "宋体";
+}
+
+.fontmicro {
+    font-family: "微软雅黑";
+}
+
+.fbold {
+    font-weight: bold;
 }
 
 /* 飘窗样式 */
