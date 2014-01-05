@@ -1,0 +1,696 @@
+.file-trans {
+    position: relative;
+}
+
+.trans {
+    padding: 34px 0 34px;
+}
+/* tab */
+
+.trans .tab {
+    margin: 0 auto 24px;
+    width: 960px;
+}
+
+.trans .tab .doc-trans, .trans .tab .fast-trans {
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 26px;
+}
+
+.trans .tab .doc-trans strong {
+    color: #333333;
+    font-weight: bold;
+}
+
+.trans .tab .fast-trans i {
+    color: #B8B9BA;
+}
+
+.trans .tab .fast-trans a {
+    color: #2A7FE0;
+}
+
+.trans .tab .fast-trans a:hover {
+    background-color: #F2F4F7;
+}
+
+.trans .tab .message-tip {
+    background: url('./../images/filetrans.png') 0 0 no-repeat;
+    color: #0369DC;
+    float: right;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 32px;
+    padding-left: 22px;
+    zoom: 1;
+}
+
+.trans .tab .message-tip:hover {
+    text-decoration: underline;
+}
+
+.trans .tab .message-tip .tip-window {
+    display: none;
+    position: absolute;
+    top: 133px;
+    background-color: #2b5e9a;
+    width: 149px;
+    height: 171px;
+    z-index: 999;
+}
+
+.trans .tab .current:hover {
+    background-color: #fff;
+    color: #333333;
+}
+
+.trans .tab .message-tip a {
+    color: #AB1F1F;
+}
+
+/* 快速翻译 */
+
+.trans .content {
+    position: relative;
+    padding-top: 27px;
+    padding-bottom: 34px;
+    background-color: #fff;
+    margin: 0 auto;
+    width: 960px;
+    zoom: 1;
+}
+
+.trans .not-working-time {
+    width: 960px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
+    opacity: 0.8;
+    filter: Alpha(opacity = 80);
+}
+
+.trans .out-of-work .not-working-time,
+.trans .out-of-work .not-working-time-text {
+    display: block;
+}
+
+.trans .out-of-work #language {
+    visibility: hidden;
+}
+
+.trans .not-working-time-text {
+    position: absolute;
+    display: none;
+    left: 270px; /* qt.width() / 2 - 210 */
+    color: #000;
+    line-height: 25px;
+    font-size: 14px;
+    width: 420px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.trans .content i.trans-error-message {
+    line-height: 20px;
+}
+
+.trans .content i.trans-lang-message {
+    line-height: 20px;
+    color: #666666;
+    padding-right:20px;
+}
+
+.trans .content i.demand-error-message {
+    vertical-align: 10px;
+    *vertical-align: 4px;
+    margin-left: 8px;
+}
+
+.trans .content i.tips-tel {
+    position: absolute;
+    color: #666666;
+}
+
+.trans .content i.tips-tel {
+    position: absolute;
+    color: #666666;
+}
+
+.trans .content .user-phone .form-item-layout span.error-tel {
+    font-size: 12px;
+    font-weight: normal;
+    color: #ab1f1f;
+}
+
+.trans .content #language {
+    height: 21px;
+    font-size: 14px;
+}
+
+.trans .content .additional {
+    color: #666;
+}
+
+.trans .content .input-text {
+    height: 101px;
+    width: 756px;
+    font-size: 12px;
+}
+
+.trans .content .form-item-layout span {
+    color: #ab1f1f;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.trans .content .form-item-layout .lang-text{
+    color: #434343;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.trans .content .form-item-layout .text-num {
+    margin-right: 18px;
+}
+
+.trans .content .form-item-layout .whole-price {
+    display: inline;
+    font-weight: normal;
+    margin-right: 18px;
+}
+
+.trans .content .form-item-layout .price {
+    display: inline;
+    font-weight: normal;
+}
+
+.trans .content .form-item-layout .timeCost {
+    display: inline;
+    font-weight: normal;
+    margin-right: 18px;
+}
+
+.trans .quick-trans .demand-note {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.trans .quick-trans .demand-note label {
+    padding-top: 0;
+}
+
+.trans .quick-trans .demand-note textarea {
+    height: 26px;
+    line-height: 26px;
+    width: 415px;
+    overflow: auto;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+.trans .content .trans-info {
+    position: relative;
+    zoom: 1;
+    margin-top: 12px;
+    text-align: right;
+    padding-right: 100px;
+}
+
+.trans .content .trans-info .clear-content {
+    position: absolute;
+    left: 0;
+}
+
+.trans .content .user-info {
+    margin-left: 24px;
+}
+
+.trans .content #userBill {
+    display: none;
+}
+
+.trans .content .billInfo {
+    position: relative;
+    margin-right: 10px;
+}
+
+.trans .content .printBill, .trans .content .printBillI {
+    position: relative;
+    top: 3px;
+    border: 0;
+}
+
+.trans .content .bill-text {
+    float: right;
+    margin-right: 10px;
+    line-height: 30px;
+}
+
+.trans .content #goToTrans {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.trans .doctype {
+    float: left;
+}
+
+#proField {
+    width: 500px;
+}
+
+#doctype input, #proField input {
+    border: none;
+    box-shadow: none;
+}
+
+#doctype li, #proField li {
+    float: left;
+    height: 14px;
+    margin: 12px 30px 0 0;
+}
+
+#proField li {
+    margin-right: 0;
+    width: 94px;
+}
+
+#doctype label, #proField label {
+    float: none;
+    font-weight: normal;
+    margin-left: 0;
+    position: relative;
+    top: -2px;
+}
+
+#proField .more-type {
+    width: 200px;
+}
+
+.file-info-detail #moreFieldText {
+    border: solid 1px #d4d4d4;
+    width: 120px;
+}
+
+/* 历史记录 */
+
+#trans-history {
+    margin: 10px auto 0;
+    line-height: 16px;
+    width: 960px;
+}
+
+#trans-history .history-title {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid #e7e7e7;
+    font-size: 14px;
+}
+
+#trans-history .history-title .see-more {
+    color: #2b5e9a;
+    margin-top: 5px;
+    float: right;
+    line-height: 20px;
+}
+
+#trans-history .history-title .see-more:hover {
+    color: #fff;
+}
+
+#trans-history .translating .trans-result, #trans-history .havent-pay .trans-result {
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#trans-history .havent-pay .trans-result a {
+    display: inline-block;
+    margin: 8px 15px;
+    font-weight: bold;
+}
+
+#trans-history .havent-pay .trans-result i {
+    font-size: 14px;
+}
+
+#trans-history .fix-vertical-middle {
+    vertical-align: middle;
+    position: relative;
+    top: -4px;
+}
+
+#trans-history .history-item .content-separate {
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    font-family: "宋体";
+}
+
+#trans-history .history-item .time-and-see .see-all {
+    margin-left: 10px;
+}
+
+/* 文档翻译 */
+
+.trans .doc-trans {
+    position: static;
+}
+
+.trans .doc-trans .error-fix {
+    position: relative;
+}
+
+.trans .doc-trans .error-fix i {
+    position: absolute;
+    top: 8px;
+}
+
+.trans .doctype-wrap {
+    margin-left: 38px;
+}
+
+.suggest {
+    background: url("./../images/filetrans.png") 0 -22px no-repeat;
+    color: #C4C4C4;
+    line-height: 16px;
+    margin: 0 0 40px 54px;
+    padding-left: 16px;
+}
+
+.file-info-detail #moreText {
+    border: solid 1px #d4d4d4;
+    width: 118px;
+}
+
+#moreText:focus {
+    border: 1px solid #7fa1c8;
+}
+
+.trans .doc-trans .error-fix .language {
+    left: 103px;
+}
+
+.trans .doc-trans .error-fix .file {
+    left: 247px;
+}
+
+.trans .doc-trans .user-info {
+    float: right;
+    margin-top: 5px;
+    width: 440px;
+}
+
+.trans .doc-trans .info-list label {
+    line-height: 20px;
+    height: 20px;
+}
+
+.trans .doc-trans .info-list .form-item-layout {
+    line-height: 20px;
+    height: 20px;
+}
+
+.trans .doc-trans #otherRequirement {
+    height: 126px;
+    vertical-align: text-top;
+    width: 338px;
+}
+
+.trans #intro-left {
+    width: 417px;
+}
+
+.trans #intro-right {
+    width: 400px;
+}
+
+.trans .user-phone #userPhoneI {
+    width: 200px;
+}
+
+.trans .go-check {
+    padding: 0 20px 10px 20px;
+    text-align: right;
+}
+
+/* tips样式 */
+.msg-tips {
+    position: absolute;
+    width: 230px;
+    line-height: 18px;
+    padding: 5px 12px;
+    background: #fcfcf1;
+    border: 1px solid #e9c442;
+    text-align: left;
+    font-size: 12px;
+    color: #ca7309;
+    font-weight: normal;
+}
+
+#trans-history .trans-result .msg-tips a.iKnow {
+    position: absolute;
+    color: #707070;
+    font-size: 12px;
+    font-weight: normal;
+    top: 5px;
+    right: 10px;
+    line-height: 16px;
+    margin: 0;
+}
+
+#trans-history .trans-result .msg-tips a.iKnow:hover {
+    background-color: #fff;
+    color: #707070;
+    text-decoration: underline;
+}
+
+/*限时优惠 快速翻译提醒*/
+#temp-events {
+    float: right;
+    padding: 0;
+    color: #fff;
+    margin-top: 10px;
+}
+
+#temp-events:hover {
+    background-color: transparent;
+}
+
+#christmas {
+    display: inline;
+    margin-left: 20px;
+}
+
+#christmas span {
+    font-size: 16px;
+}
+
+.invalid-price {
+    text-decoration: line-through;
+}
+
+.file-nav {
+    background: url('./../images/file-nav.png') 0 0 no-repeat;
+    background-color:white;
+    background-position: 27px 24px;
+    padding:0;
+    margin:0 auto;
+    width:960px;
+    height:60px;
+}
+
+.ie6mask {
+    border: none;
+    display: none;
+    filter: alpha(opacity=0)\0;
+    height: 23px;
+    left: 70px;
+    position: absolute;
+    top: 0;
+    width: 150px;
+}
+
+.file-info-detail {
+    color: #999591;
+    margin: 0 0 36px 29px;
+    position: relative;
+}
+
+.file-info-detail .bull {
+    font-size: 16px;
+    padding: 0 3px;
+}
+
+.file-info-detail ul {
+    margin-left: 16px;
+}
+
+.file-info-detail label {
+    color: #666;
+    float: none;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.file-info-detail .dest-language {
+    margin: 0 10px;
+}
+
+.file-info-detail label i {
+    background: url("./../images/filetrans.png") 0 -22px no-repeat;
+    color: #666;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 16px;
+    margin-left: 5px;
+    padding-left: 20px;
+}
+
+.control-btn-blue {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 38px;
+    background-image:url(rengong.jpg);
+    color: #fff;
+    display: block;
+    height: 44px;
+    width: 185px;
+    padding: 0;
+    margin: 20px 6px 18px 30px;
+    *margin-left:20px;
+    float:left;
+}
+
+.control-btn-green{
+    font-size: 14px;
+    font-weight: bold;
+    font-weight: bold;
+    text-align: center;
+    line-height: 38px;
+    background-image:url(auto.jpg);
+    color: #fff;
+    display: block;
+    height: 43px;
+    width: 179px;
+    padding: 0;
+    margin: 20px 20px 20px 30px;
+    float:left;
+}
+
+
+.message-box-baojia .content li{
+    padding-left:40px;
+}
+.message-box-baojia .content strong{
+    font-size:14px;
+}
+
+.confirmSubmit {
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+}
+
+.user-info {
+    background-color: #FFF;
+    height: 354px ;
+    margin: 0 auto;
+    width: 550px;
+}
+
+.forIEShadow {
+    background: #000;
+    filter:alpha(opacity=50)\0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.close {
+    background: url("./../images/filetrans.png") 0 -42px no-repeat;
+    float: right;
+    height: 12px;
+    margin: 10px;
+    width: 16px;
+}
+
+.close:hover {
+    background-color: #FFF;
+}
+
+.user-content {
+    margin: 0 20px;
+}
+
+.user-content i {
+    color: #A9A9A9;
+}
+
+.user-content strong {
+    color: #F34C4C;
+}
+
+.user-info .user-content label {
+    width: 95px;
+}
+
+.user-info .user-content .form-item-layout {
+    font-weight: normal;
+}
+
+.confirmWrap {
+    background-color: #EBEEF0;
+    margin-top: 35px;
+    padding: 12px;
+}
+
+#goToTrans {
+    height: 38px;
+    line-height: 38px;
+    margin: 0 auto;
+}
+
+.data-error {
+    border-color: #F34C4C;
+}
+
+.user-content .error-message {
+    color: #F34C4C;
+}
+
+.modifyInfo {
+    color: #0369DC;
+    font-weight: normal;
+}
+
+.modifyInfo:hover {
+    background-color: #FFF;
+    color: #0369DC;
+    text-decoration: underline;
+}
+
+#trans-history-list .history-item .history-layout {
+    padding: 0 20px 10px 20px;
+}
+
+#trans-history-list .history-item .time-and-see {
+    color: #434343;
+    font-weight: bold;
+    margin: 10px 0 5px 20px;
+}

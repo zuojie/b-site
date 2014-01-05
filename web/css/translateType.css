@@ -1,0 +1,294 @@
+/* 翻译类型文件公共 */
+.translateType {
+    font-family: "微软雅黑";
+    _font-family: song;
+}
+
+.translateType .order {
+    color: #fff;
+    height: 253px;
+    text-align: center;
+}
+
+.translateType .order .title {
+    color: #fff;
+    font-size: 42px;
+    padding: 26px 0 10px;
+}
+
+.translateType .content {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 auto;
+    text-align: left;
+    width: 520px;
+}
+
+.translateType .order .content {
+    text-indent: 2em;
+}
+
+.translateType .btn {
+    display: block;
+    height: 56px;
+    margin: 18px auto;
+    text-indent: -9999px;
+    width: 177px;
+}
+
+.translateType .advantage-bg {
+    background: url("./../images/translate-type-bg.png") repeat-x;
+}
+
+.translateType .advantage-pic {
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.translateType .advantage-wrap {
+    margin: 0 auto;
+    height: 218px;
+    padding-top: 35px;
+    width: 960px;
+}
+
+.translateType .advantage-content {
+    background-color: #fff;
+    border-radius: 2px;
+    height: 184px;
+    margin-left: 30px;
+    opacity: 0.75;
+    filter:alpha(opacity=75)\0;
+    width: 418px;
+}
+
+.doc-translate .title {
+    font-size: 18px;
+}
+
+.advantage-content .title {
+    border-bottom: dotted 1px #ccc;
+    padding: 18px 0 16px;
+    margin: 0 31px 13px;
+}
+
+.advantage-content .content {
+    color: #333;
+    line-height: 31px;
+    margin-left: 31px;
+    width: 356px;
+}
+
+.recommend {
+    background-color: #fff;
+}
+
+.recommend-wrap {
+    height: 306px;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.recommend .title {
+    padding: 31px 0 0 63px;
+}
+
+.recommend .content {
+    color: #666;
+    font-size: 13px;
+    _font-size: 13px;
+    position: relative;
+    width: 960px;
+}
+
+.recommend .profession, .recommend .expert {
+    border-right: solid 1px #CCC;
+    float: left;
+    margin: 15px 0 0 63px;
+    _margin-left: 32px;
+    padding-top: 4px;
+    width: 416px;
+}
+
+.recommend .content .title {
+    color: #333;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+.recommend .description {
+    background: url("./../images/translatetype.png") 0 10px no-repeat;
+    padding-left: 14px;
+    line-height: 24px;
+}
+
+.recommend .star {
+    color: #F05E1C;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.recommend .star span {
+    position: relative;
+    top: -5px;
+    *top: 0;
+}
+
+.recommend .star i {
+    background: url("./../images/translatetype.png") 0 -21px no-repeat;
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+}
+
+.recommend .expert {
+    border: none;
+}
+
+/* 专业论文翻译 */
+.thesis .order {
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#295e9e, endcolorstr=#4a86cf, gradientType=0)\9;
+    background: linear-gradient(top, #295e9e, #4a86cf);
+    background: -webkit-linear-gradient(top, #295e9e, #4a86cf);
+    background: -moz-linear-gradient(top, #295e9e, #4a86cf);
+    background: -o-linear-gradient(top, #295e9e, #4a86cf);
+    background: -ms-linear-gradient(top, #295e9e, #4a86cf);
+}
+
+.thesis .order .content {
+    width: 463px;
+}
+
+.thesis .btn-order {
+    background: url("./../images/thesis_normal.png") no-repeat;
+}
+
+.thesis .btn-order:hover {
+    background: url("./../images/thesis_hover.png") no-repeat;
+}
+
+.thesis .advantage-pic {
+    background: url("./../images/thesis-bg.png") no-repeat;
+}
+
+.thesis .title {
+    color: #2e6ab1;
+}
+
+/* 简历简介 */
+.resume .order {
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#ca9523,endcolorstr=#edc266,gradientType=0)\9;
+    background: linear-gradient(top, #ca9523, #edc266);
+    background: -webkit-linear-gradient(top, #ca9523, #edc266);
+    background: -moz-linear-gradient(top, #ca9523, #edc266);
+    background: -o-linear-gradient(top, #ca9523, #edc266);
+    background: -ms-linear-gradient(top, #ca9523, #edc266);
+}
+
+.resume .order .content {
+    width: 463px;
+}
+
+.resume .btn-order {
+    background: url("./../images/resume_normal.png") no-repeat;
+}
+
+.resume .btn-order:hover {
+    background: url("./../images/resume_hover.png") no-repeat;
+}
+
+.resume .advantage-pic {
+    background: url("./../images/resume-bg.png") no-repeat;
+}
+
+.resume .title {
+    color: #dc6309;
+}
+
+/* 移民留学 */
+.abroad .order {
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#5d9b5a,endcolorstr=#8acb87,gradientType=0)\9;
+    background: linear-gradient(top, #5d9b5a, #8acb87);
+    background: -webkit-linear-gradient(top, #5d9b5a, #8acb87);
+    background: -moz-linear-gradient(top, #5d9b5a, #8acb87);
+    background: -o-linear-gradient(top, #5d9b5a, #8acb87);
+    background: -ms-linear-gradient(top, #5d9b5a, #8acb87);
+}
+
+.abroad .btn-order {
+    background: url("./../images/abroad_normal.png") no-repeat;
+}
+
+.abroad .btn-order:hover {
+    background: url("./../images/abroad_hover.png") no-repeat;
+}
+
+.abroad .advantage-pic {
+    background: url("./../images/abroad-bg.png") no-repeat;
+}
+
+.abroad .title {
+    color: #4C8849;
+}
+
+/* 公司产品介绍 */
+.intro .order {
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#4a99aa,endcolorstr=#72c6d8,gradientType=0)\9;
+    background: linear-gradient(top, #4a99aa, #72c6d8);
+    background: -webkit-linear-gradient(top, #4a99aa, #72c6d8);
+    background: -moz-linear-gradient(top, #4a99aa, #72c6d8);
+    background: -o-linear-gradient(top, #4a99aa, #72c6d8);
+    background: -ms-linear-gradient(top, #4a99aa, #72c6d8);
+}
+
+.intro .order .content {
+    width: 600px;
+}
+
+.intro .btn-order {
+    background: url("./../images/intro_normal.png") no-repeat;
+}
+
+.intro .btn-order:hover {
+    background: url("./../images/intro_hover.png") no-repeat;
+}
+
+.intro .advantage-pic {
+    background: url("./../images/intro-bg.png") no-repeat;
+}
+
+.intro .title {
+    color: #3997ab;
+}     
+
+/* 法律合同标书 */
+.contract .order {
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#906b50,endcolorstr=#bd9577,gradientType=0)\9;
+    background: linear-gradient(top, #906b50, #bd9577);
+    background: -webkit-linear-gradient(top, #906b50, #bd9577);
+    background: -moz-linear-gradient(top, #906b50, #bd9577);
+    background: -o-linear-gradient(top, #906b50, #bd9577);
+    background: -ms-linear-gradient(top, #906b50, #bd9577);
+}
+
+.contract .order .content {
+    width: 608px;
+}
+
+.contract .btn-order {
+    background: url("./../images/contract_normal.png") no-repeat;
+}
+
+.contract .btn-order:hover {
+    background: url("./../images/contract_hover.png") no-repeat;
+}
+
+.contract .advantage-pic {
+    background: url("./../images/contract-bg.png") no-repeat;
+}
+
+.contract .title {
+    color: #754e4e;
+}
