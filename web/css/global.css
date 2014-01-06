@@ -37,7 +37,11 @@ a {
 }
 
 .nav-li {
-    margin-right: 25px;
+    margin-right: 27px;
+}
+
+.banner-img {
+    width: 900px;
 }
 
 .message-box a, .message-box2 a, .message-box-baojia a, .message-box-fast a {
@@ -144,7 +148,8 @@ textarea {
 /* 总体居中 */
 
 .banner {
-
+    width: 900px;
+    margin: auto;
 }
 
 .banner-wrap {
@@ -290,15 +295,6 @@ i.large {
     padding: 12px 0 0;
 }
 
-#live800iconlink {
-    font-weight: normal;
-    text-decoration: underline;
-}
-
-#live800iconlink:hover {
-    color: #000;
-}
-
 .suggestion a {
     color: #000;
 }
@@ -319,14 +315,23 @@ i.large {
     *height: 52px;
 }
 
-.contact .navigation .nav-menu li {
+.contact .navigation .nav-menu .nav-li {
     float: left;
 }
 
-.contact .navigation .nav-menu a {
+.contact .navigation .nav-menu .nav-li-r {
+    float: right;
+}
+.contact .navigation .nav-menu .nav-l {
     color: #474747;
     display: block;
-    padding: 14px 8px 11px;
+    padding: 0 8px 11px;
+}
+
+.nav-a-r {
+    color: #474747;
+    display: block;
+    padding: 0 0 11px;
 }
 
 .contact .navigation .nav-menu a:hover {
@@ -365,35 +370,6 @@ i.large {
     top: 108px;
     width: 92px;
     z-index: 999;
-}
-
-#docTransMenu {
-    background-color: #f9f9f9;
-    border: solid 6px #CACACA;
-    border-radius: 6px;
-    height: 140px;
-    left: 149px;
-    _left: 178px;
-    padding: 7px;
-    position: absolute;
-    top: 58px;
-    width: 132px;
-    z-index: 999;
-}
-
-#docTransMenu li {
-    border-bottom: solid 1px #e5e4e4;
-    height: 28px;
-    line-height: 28px;
-    padding-left: 11px;
-}
-
-#docTransMenu li.last {
-    border-bottom: none;
-}
-
-#docTransMenu li:hover, #docTransMenu .hover {
-    background-color: #eee;
 }
 
 /* 框架 */
@@ -888,24 +864,6 @@ label {
     border: 0;
 }
 
-/*在线咨询*/
-#live800iconlink {
-    position: relative;
-    display: block;
-    font-weight: bold;
-    text-decoration: none;
-    color: #FFFFFF;
-    width: 88px;
-    height: 27px;
-    line-height: 25px;
-    padding: 0px 0px 0px 26px;
-    background: url('./../images/onlineAsk.png') no-repeat;
-}
-
-#live800iconlink:hover {
-    color: #FFFFFF;
-    background: url('./../images/onlineAsk.png') no-repeat;
-}
 
 .dn {
     display: none;

@@ -4857,7 +4857,7 @@ define("business/tmpl", function(a, b) {
 		},
 		favoratePanelMsg: function(a) {
 			var b = "";
-			c.browser.webkit || c.browser.opera ? b = '';
+			c.browser.webkit || c.browser.opera ? b = '<div id="favPanel"><div id="tipsDesc">按<span>CTRL+D</span>快速收藏有道专业翻译，下次轻松访问！</div><div id="stopSuggest"><a id="stopSuggestA" class="clog-js" data-act="cancel-favorite-tips" href="javascript:void(0);">不再提示</a></div></div>' : b = '<div id="favPanel"><div id="tipsDesc">把专业翻译加入收藏夹，下次轻松访问</div><div id="addFavorite"><a id="addFavoriteA" class="clog-js" data-act="add-to-favorites" href="javascript:void(0);">加为收藏</a></div><div id="stopSuggest"><a id="stopSuggestA" class="clog-js" data-act="cancel-favorites-tips" href="javascript:void(0);">不再提示</a></div></div>';
 			return function() {
 				return b
 			}

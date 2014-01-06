@@ -57,34 +57,34 @@
         <hr width=900px>
         <div id="banner" class="banner">
             <div >
-                <a class="join-in" href=""></a>
+                <img class="banner-img" src="./images/banner.jpg"></img>
             </div>
         </div>
         <hr width=900px>
-        <div class="contact clear"><div class="navigation">
+        <div class="contact clear">
+            <div class="navigation">
             <ul class="nav-menu">
-                <li class="nav-li"><a href="home.php" hidefocus="true" class="current size20">首页</a></li>
+                <li class="nav-li"><a href="home.php" hidefocus="true" class="current size20 nav-l">首页</a></li>
 
-                <li class="nav-li"><a href="thesis.php" class="clog-js size16" data-act="fast-page" hidefocus="true">专业论文翻译</a></li>
+                <li class="nav-li"><a href="thesis.php" class="clog-js size16 nav-l" data-act="fast-page" hidefocus="true">专业论文翻译</a></li>
 
-                <li class="nav-li"><a href="cv.php" class="clog-js size16" data-act="doc-page" hidefocus="true">简历/简介翻译</a></li>                
+                <li class="nav-li"><a href="cv.php" class="clog-js size16 nav-l" data-act="doc-page" hidefocus="true">简历/简介翻译</a></li>                
 
-                <li class="nav-li"><a href="about.php" class="clog-js size16" data-act="service-statement" hidefocus="true" target="_blank">产品/资料翻译</a></li>
+                <li class="nav-li"><a href="about.php" class="clog-js size16 nav-l" data-act="service-statement" hidefocus="true" target="_blank">产品/资料翻译</a></li>
 
-                <li class="nav-li"><a href="abroad.php" class="clog-js size16" data-act="examples" hidefocus="true" target="_blank">留学/移民翻译</a></li>
+                <li class="nav-li"><a href="abroad.php" class="clog-js size16 nav-l" data-act="examples" hidefocus="true" target="_blank">留学/移民翻译</a></li>
 
-                <li class="nav-li"><a href="service.php" class="clog-js size16" data-act="examples" hidefocus="true" target="_blank">更多服务</a></li>
+                <li class="nav-li"><a href="service.php" class="clog-js size16 nav-l" data-act="examples" hidefocus="true" target="_blank">更多服务</a></li>
 
-            </ul>
-            <ul id="docTransMenu" class="hidden">
-                <li class=""><a class="menu-thesis" href="thesis.php">专业论文</a></li>
-                <li><a class="menu-resume" href="cv.php">简历简介</a></li>
-                <li><a class="menu-abroad" href="abroad.php">留学移民</a></li>
-                <li><a class="menu-intro" href="intro.php">公司产品介绍</a></li>
-                <li class="last"><a class="menu-contract" href="contract.php">法律合同标书</a></li>
+                <li class="nav-li-r" style="margin-right: 3px;"><a href="service.php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true" target="_blank">关于我们</a></li>
+                <li class="nav-li-r"><a href="service.php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true" target="_blank">翻译示例&nbsp;|&nbsp;</a></li>
+                <li class="nav-li-r"><a href="service.php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true" target="_blank">服务说明&报价&nbsp;|&nbsp;</a></li>
+
+                                             
             </ul>
         </div>
     </div>
+    <hr width=900px>
 </div>
 <div id="bd" class="index">
     <div class="big-bg-order-wrap">
