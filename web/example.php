@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <script type="text/javascript" src="./js/textStatic.js"></script>
     <script type="text/javascript" src="./js/monitor.js" charset="utf-8"></script>
-     <title>元培专业人工翻译 | 文档翻译</title>
+     <title>元培专业人工翻译 | 翻译示例</title>
     <meta name="description" content="中国翻译协会认证的正规翻译公司，在线翻译立等可取，文档翻译多轮审核、性价比高。提供英语专业翻译、英文简历、合同翻译、论文翻译等服务。咨询电话400-6608-163">
     <meta name="keywords" content="在线翻译，英文翻译，英语专业翻译，英文简历翻译，合同翻译，论文翻译，公司简介翻译、产品介绍翻译">
     <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
@@ -15,13 +15,14 @@
     <script>
         DD_belatedPNG.fix('.btn-order');
     </script>
-    <![endif]-->
+    <![endif]-->   
     <script type="text/javascript" async="" src="./js/conversion.js"></script>
     <script type="text/javascript" async="" src="./js/fpass.js"></script>
     <script async="true" type="text/javascript" src="./js/roundtrip.js"></script>
     <script async="true" type="text/javascript" src="./js/RLBFEI7CUZATHM373AWPCD"></script>
 </head>
-<body lim:visitorcapacity="1">
+
+<body>
 <div id="doc1">
     <div id="hd">
         <div class="hd-logo">
@@ -66,13 +67,13 @@
                 <ul class="nav-menu">
                     <li class="nav-li"><a href="home.php" hidefocus="true" class="size20 nav-l">首页</a></li>
                     <li class="nav-li"><a href="thesis.php" class="clog-js size16 nav-l" data-act="fast-page" hidefocus="true">专业论文翻译</a></li>
-                    <li class="nav-li"><a href="cv.php" class="current clog-js size16 nav-l" data-act="doc-page" hidefocus="true">简历/简介翻译</a></li>                
+                    <li class="nav-li"><a href="cv.php" class="clog-js size16 nav-l" data-act="doc-page" hidefocus="true">简历/简介翻译</a></li>                
                     <li class="nav-li"><a href="intro.php" class="clog-js size16 nav-l" data-act="service-statement" hidefocus="true">产品/资料翻译</a></li>
                     <li class="nav-li"><a href="abroad.php" class="clog-js size16 nav-l" data-act="examples" hidefocus="true">留学/移民翻译</a></li>
                     <li class="nav-li"><a href="more.php" class="clog-js size16 nav-l" data-act="examples" hidefocus="true">更多服务</a></li>
                     <li class="nav-li-r" style="margin-right: 3px;"><a href="about.php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true">关于我们</a></li>
                     <li class="nav-li-r">&nbsp;|&nbsp;</li>
-                    <li class="nav-li-r"><a href="example.php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true">翻译示例</a></li>
+                    <li class="nav-li-r"><a href=".php" class="current clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true">翻译示例</a></li>
                     <li class="nav-li-r">&nbsp;|&nbsp;</li>
                     <li class="nav-li-r"><a href="service.php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true">服务说明&报价</a></li>                                            
                 </ul>
@@ -80,63 +81,6 @@
         </div>
     </div>
     <hr width=900px>
-</div>
-
-<div id="bd" class="translateType">
-    <div id="resume" class="resume doc-translate">
-        <div class="order">
-            <div class="title">简历简介</div>
-            <div class="content">针对有求职需求的人群，为您精心翻译，排版制作专业的英文简历！ 让您的简历耳目一新，脱颖而出！</div>
-            <a class="btn btn-order" href="file.php" data-type="cv">立刻下单</a>
-        </div>
-        <div class="advantage-bg">
-            <div class="advantage-pic">
-                <div class="advantage-wrap">
-                    <div class="advantage-content">
-                        <div class="title">我们的优势：</div>
-                        <div class="content">深厚的语言功底，确保译文意思准确一致</div>
-                        <div class="content">丰富的英文简历制作经验，专业地道的求职外语表达</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="recommend">
-            <div class="recommend-wrap">
-                <div class="title">推荐级别：</div>
-                <div class="content">
-                    <div class="profession">
-                        <div class="title">高级：</div>
-                        <div class="price">中译英：240元/千字</div>
-                        <div class="description">3年以上翻译经验译员，累计翻译字数达200万</div>
-                        <div class="description">中级译员翻译 + 1轮中级审校</div>
-                        <div class="description">原文不含大量专业性复杂词汇</div>
-                        <div class="star">
-                            <span>推荐指数：</span>
-                            <i></i>
-                            <i></i>
-                            <i></i>
-                            <i></i>
-                            <i></i>
-                        </div>
-                    </div>
-                    <div class="expert">
-                        <div class="title">专业级：</div>
-                        <div class="price">中译英：330元/千字</div>
-                        <div class="description">5年以上翻译经验译员，累计翻译字数达500万</div>
-                        <div class="description">高级译员翻译 + 2轮高级审校 + 排版美化</div>
-                        <div class="description">原文对译者专业性要求极高</div>
-                        <div class="star">
-                            <span>推荐指数：</span>
-                            <i></i>
-                            <i></i>
-                            <i></i>
-                            <i></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>            
 </div>
 
 <div id="ft">
@@ -147,15 +91,6 @@
         <span>使用条款</span>
     </p>
 </div>
-
-
 <script type="text/javascript" src="./js/business.js" data-main="business/trans"></script>
-
-<div id="shadowMeasureIt"></div>
-<div id="divCoordMeasureIt"></div>
-<div id="divRectangleMeasureIt">
-    <div id="divRectangleBGMeasureIt">
-    </div>
-</div>
 </body>
 </html>

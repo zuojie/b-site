@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
 	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<script type="text/javascript" src="./js/textStatic.js"></script>
 		<script type="text/javascript" src="./js/monitor.js" charset="utf-8"></script>
@@ -21,14 +21,16 @@
         <script async="true" type="text/javascript" src="./js/home/roundtrip.js"></script>
         <script async="true" type="text/javascript" src="./js/RLBFEI7CUZATHM373AWPCD"></script>
 </head>
+
 <body lim:visitorcapacity="1">
+
 <div id="doc1">
     <div id="hd">
         <div class="hd-logo">
             <div class='nav-logo dline'>
-            <!--<a href="./home.php" class="logo clog-js" data-act="logo"></a>-->            
-		         <strong class="size20 fontmicro">元培专业人工翻译</strong>
-		         <i class="size12 fontsong" style="color: black;">&nbsp;&nbsp;原北京大学外语翻译中心</i>
+                <!--<a href="./home.php" class="logo clog-js" data-act="logo"></a>-->            
+		        <strong class="size20 fontmicro">元培专业人工翻译</strong>
+		        <i class="size12 fontsong" style="color: black;">&nbsp;&nbsp;原北京大学外语翻译中心</i>
             </div>
             <div class="nav-center dline">
                 <strong class="size14 fontmicro">免费咨询：400-911-9797</strong>
@@ -63,29 +65,25 @@
         <hr width=900px>
         <div class="contact clear">
             <div class="navigation">
-            <ul class="nav-menu">
-                <li class="nav-li"><a href="home.php" hidefocus="true" class="current size20 nav-l">首页</a></li>
-
-                <li class="nav-li"><a href="thesis.php" class="clog-js size16 nav-l" data-act="fast-page" hidefocus="true">专业论文翻译</a></li>
-
-                <li class="nav-li"><a href="cv.php" class="clog-js size16 nav-l" data-act="doc-page" hidefocus="true">简历/简介翻译</a></li>                
-
-                <li class="nav-li"><a href="about.php" class="clog-js size16 nav-l" data-act="service-statement" hidefocus="true" target="_blank">产品/资料翻译</a></li>
-
-                <li class="nav-li"><a href="abroad.php" class="clog-js size16 nav-l" data-act="examples" hidefocus="true" target="_blank">留学/移民翻译</a></li>
-
-                <li class="nav-li"><a href="service.php" class="clog-js size16 nav-l" data-act="examples" hidefocus="true" target="_blank">更多服务</a></li>
-
-                <li class="nav-li-r" style="margin-right: 3px;"><a href="service.php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true" target="_blank">关于我们</a></li>
-                <li class="nav-li-r"><a href="service.php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true" target="_blank">翻译示例&nbsp;|&nbsp;</a></li>
-                <li class="nav-li-r"><a href="service.php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true" target="_blank">服务说明&报价&nbsp;|&nbsp;</a></li>
-
-                                             
-            </ul>
+                <ul class="nav-menu">
+                    <li class="nav-li"><a href="home.php" hidefocus="true" class="current size20 nav-l">首页</a></li>
+                    <li class="nav-li"><a href="thesis.php" class="clog-js size16 nav-l" data-act="fast-page" hidefocus="true">专业论文翻译</a></li>
+                    <li class="nav-li"><a href="cv.php" class="clog-js size16 nav-l" data-act="doc-page" hidefocus="true">简历/简介翻译</a></li>                
+                    <li class="nav-li"><a href="intro.php" class="clog-js size16 nav-l" data-act="service-statement" hidefocus="true">产品/资料翻译</a></li>
+                    <li class="nav-li"><a href="abroad.php" class="clog-js size16 nav-l" data-act="examples" hidefocus="true">留学/移民翻译</a></li>
+                    <li class="nav-li"><a href="more.php" class="clog-js size16 nav-l" data-act="examples" hidefocus="true">更多服务</a></li>
+                    <li class="nav-li-r" style="margin-right: 3px;"><a href="about.php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true">关于我们</a></li>
+                    <li class="nav-li-r">&nbsp;|&nbsp;</li>
+                    <li class="nav-li-r"><a href="example.php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true">翻译示例</a></li>
+                    <li class="nav-li-r">&nbsp;|&nbsp;</li>
+                    <li class="nav-li-r"><a href="service.php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true">服务说明&报价</a></li>                                            
+                </ul>
+            </div>
         </div>
     </div>
     <hr width=900px>
 </div>
+
 <div id="bd" class="index">
     <div class="big-bg-order-wrap">
         <div class="big-bg-order">
@@ -260,35 +258,6 @@
 		<span>使用条款</span>
     </p>
 </div>
-</div>
-<script type="text/javascript" src="./js/business.js" data-main="business/index"></script>
-<script> var mv_switch = 32;
-var _mvq = _mvq || [];
-_mvq.push(["$setAccount", "21759"]);
-_mvq.push(["$setBeacon", "548"]);
-_mvq.push(["$logConversion"]); </script>
-<script type="text/javascript" src="./js/home/mvl.js"></script>
 
-<script type="text/javascript">
-    adroll_adv_id = "LU2Y3AKPINAIFF2KISP2OT";
-    adroll_pix_id = "RLBFEI7CUZATHM373AWPCD";
-    (function () {
-        var oldonload = window.onload;
-        window.onload = function() {
-            __adroll_loaded = true;
-            var scr = document.createElement("script");
-            var host = "";//TODO: host
-            scr.setAttribute('async', 'true');
-            scr.type = "text/javascript";
-            scr.src = host + "./js/home/roundtrip.js";
-            ((document.getElementsByTagName('head') || [null])[0] ||
-                    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
-            if (oldonload) {
-                oldonload()
-            }
-        };
-    }());
-</script>
-<script type="text/javascript">var youdao_conv_id = 132;</script>
-<script type="text/javascript" src="./js/home/conv.js"></script>
+<script type="text/javascript" src="./js/business.js" data-main="business/index"></script>
 </body></html>

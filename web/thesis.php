@@ -24,71 +24,64 @@
 <body lim:visitorcapacity="1">
 <div id="doc1">
     <div id="hd">
-        <div class="hd-logo clear">
-        <a href="home.php" class="logo clog-js" data-act="logo"></a>
-        <h1 class="dn">元培专业人工翻译</h1>
-        <strong class="dn">原北京大学外语翻译中心</strong>
-        <!--[if IE 6]>
-        <script src="./js/DD_belatedPNG_0.0.8a.js"></script>
-        <script>
-            DD_belatedPNG.fix('.logo');
-            DD_belatedPNG.fix('.netease-logo,.sina-logo,.tencent-logo');
-        </script>
-        <![endif]-->
-        <div class="nav-list">
-            <div class="account-item li-left"></div>
-            <div class="li-left login-div">
-                <a href="javascript:void(0)" class="login-ctrl clog-js" data-act="login" hidefocus="true" rel="nofollow">登录</a>
+        <div class="hd-logo">
+            <div class='nav-logo dline'>
+                <!--<a href="./home.php" class="logo clog-js" data-act="logo"></a>-->            
+                <strong class="size20 fontmicro">元培专业人工翻译</strong>
+                <i class="size12 fontsong" style="color: black;">&nbsp;&nbsp;原北京大学外语翻译中心</i>
             </div>
-            <div class="li-left reg-div">
-                <a href="reg.php" class="reg-ctrl clog-js" data-act="reg" target="_blank" hidefocus="true" rel="nofollow">注册</a>
+            <div class="nav-center dline">
+                <strong class="size14 fontmicro">免费咨询：400-911-9797</strong>
             </div>
-            <div class="li-left line-left">|</div>
-            <div class="li-left">
-                <a class="my-account clog-js" href="javascript:void(0)" data-act="my-account" data-href="user.s?method=panel" hidefocus="true" rel="nofollow">我的账户</a>
-            </div>
-            <div class="li-left">
-                <a class="translate-result clog-js" href="javascript:void(0)" data-act="translate-result" data-href="user.s?method=translateResult" hidefocus="true" rel="nofollow">翻译记录</a>
-            </div>
-            <div class="logout-div li-left">
-                <span class="line-right">|</span>
-                <a href="logout.php" class="logout-ctrl clog-js" data-act="logoff" hidefocus="true">退出</a>
+            <div class="nav-list dline">
+                <div class="account-item li-left"></div>
+                <div class="li-left login-div">
+                    <a href="javascript:void(0)" class="login-ctrl clog-js" data-act="login" hidefocus="true" rel="nofollow">登录</a>
+                </div>
+                <div class="li-left reg-div">
+                    <a href="reg.php" class="reg-ctrl clog-js" data-act="reg" target="_blank" hidefocus="true" rel="nofollow">注册</a>
+                </div>
+                <div class="li-left line-left">|</div>
+                <div class="li-left">
+                    <a class="my-account clog-js" href="javascript:void(0)" data-act="my-account" data-href="user.s?method=panel" hidefocus="true" rel="nofollow">我的账户</a>
+                </div>
+                <div class="li-left">
+                    <a class="translate-result clog-js" href="javascript:void(0)" data-act="translate-result" data-href="user.s?method=translateResult" hidefocus="true" rel="nofollow">翻译记录</a>
+                </div>
+                <div class="logout-div li-left">
+                    <span class="line-right">|</span>
+                    <a href="logout.php" class="logout-ctrl clog-js" data-act="logoff" hidefocus="true">退出</a>
+                </div>
             </div>
         </div>
-        <div class="tips ">
-            <p>这里，可以查询翻译结果和申请修改！</p>
-            <i class="arrow"></i>
-            <a class="close" href="javascript:void(0);"></a>
+        <hr width=900px>
+        <div id="banner" class="banner">
+            <div >
+                <img class="banner-img" src="./images/banner.jpg"></img>
+            </div>
         </div>
-    </div>
-    <div class="contact clear">
-        <div class="navigation">
-            <ul class="nav-menu">
-                <li><a href="http://f.youdao.com/" hidefocus="true">首页</a></li>
-                <li><div class="seperator"></div></li>
-                <li><a href="fast.php" class="clog-js" data-act="fast-page" hidefocus="true">快速翻译</a></li>
-                <li class="seperator"></li>
-                <li><a href="file.php" class="current clog-js doc-trans" data-act="doc-page" hidefocus="true">文档翻译</a></li>                       
-                <li class="seperator"></li>
-                <li><a href="about.php" class="clog-js" data-act="service-statement" hidefocus="true" target="_blank">服务说明</a></li>
-                <li class="seperator"></li>
-                <li><a href="example.php" class="clog-js" data-act="examples" hidefocus="true" target="_blank">翻译示例</a></li>
-                <li class="suggestion">
-                    <span class="contact-tel">免费咨询电话：</span>
-                    <span class="contact-tel-num">400-911-9797</span>
-                </li>
-            </ul>
-            <iframe class="Menu-Mask"></iframe>
-            <ul id="docTransMenu" class="hidden">
-                <li><a class="menu-thesis" href="thesis.php">专业论文</a></li>
-                <li><a class="menu-resume" href="cv.php">简历简介</a></li>
-                <li><a class="menu-abroad" href="abroad.php">留学移民</a></li>
-                <li><a class="menu-intro" href="intro.php">公司产品介绍</a></li>
-                <li class="last"><a class="menu-contract" href="contract.php">法律合同标书</a></li>
-            </ul>
+        <hr width=900px>
+        <div class="contact clear">
+            <div class="navigation">
+                <ul class="nav-menu">
+                    <li class="nav-li"><a href="home.php" hidefocus="true" class="current size20 nav-l">首页</a></li>
+                    <li class="nav-li"><a href="thesis.php" class="clog-js size16 nav-l" data-act="fast-page" hidefocus="true">专业论文翻译</a></li>
+                    <li class="nav-li"><a href="cv.php" class="clog-js size16 nav-l" data-act="doc-page" hidefocus="true">简历/简介翻译</a></li>                
+                    <li class="nav-li"><a href="intro.php" class="clog-js size16 nav-l" data-act="service-statement" hidefocus="true">产品/资料翻译</a></li>
+                    <li class="nav-li"><a href="abroad.php" class="clog-js size16 nav-l" data-act="examples" hidefocus="true">留学/移民翻译</a></li>
+                    <li class="nav-li"><a href="more.php" class="clog-js size16 nav-l" data-act="examples" hidefocus="true">更多服务</a></li>
+                    <li class="nav-li-r" style="margin-right: 3px;"><a href="about.php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true">关于我们</a></li>
+                    <li class="nav-li-r">&nbsp;|&nbsp;</li>
+                    <li class="nav-li-r"><a href="example.php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true">翻译示例</a></li>
+                    <li class="nav-li-r">&nbsp;|&nbsp;</li>
+                    <li class="nav-li-r"><a href="service.php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true">服务说明&报价</a></li>                                            
+                </ul>
+            </div>
         </div>
     </div>
+    <hr width=900px>
 </div>
+
 <div id="bd" class="translateType">
     <div id="thesis" class="thesis doc-translate">
     <div class="order">
@@ -144,10 +137,9 @@
                 </div>
             </div>
         </div>
-        </div>
     </div>
-</div>       
 </div>
+
 
 <div id="ft">
     <p>
@@ -157,37 +149,8 @@
         <span>使用条款</span>
     </p>
 </div>
-</div>
+
 
 <script type="text/javascript" src="./js/business.js" data-main="business/trans"></script>
-<script> var mv_switch = 32;
-var _mvq = _mvq || [];
-_mvq.push(["$setAccount", "21759"]);
-_mvq.push(["$setBeacon", "548"]);
-_mvq.push(["$logConversion"]); 
-</script>
-<script type="text/javascript" src="./js/mvl.js"></script>
-<script type="text/javascript">
-    adroll_adv_id = "LU2Y3AKPINAIFF2KISP2OT";
-    adroll_pix_id = "RLBFEI7CUZATHM373AWPCD";
-    (function () {
-        var oldonload = window.onload;
-        window.onload = function() {
-            __adroll_loaded = true;
-            var scr = document.createElement("script");
-            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
-            scr.setAttribute('async', 'true');
-            scr.type = "text/javascript";
-            scr.src = host + "/j/roundtrip.js";
-            ((document.getElementsByTagName('head') || [null])[0] ||
-                    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
-            if (oldonload) {
-                oldonload()
-            }
-        };
-    }());
-</script>
-<script type="text/javascript">var youdao_conv_id = 132;</script>
-<script type="text/javascript" src="./js/conv.js"></script>
 </body>
 </html>
