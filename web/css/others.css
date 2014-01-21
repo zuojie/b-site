@@ -1,0 +1,811 @@
+.others {
+    margin: 0 auto 59px;
+    width: 960px;
+}
+
+.others .bd-content {
+    padding: 30px;
+}
+
+.others .user-info .title {
+    font-size: 14px;
+}
+
+.others .user-info p {
+    margin: 10px 0;
+}
+
+.others .user-info p span {
+    padding-left: 13px;
+    display: block;
+    color: #666;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+.others .user-info .control-btn {
+    margin-left: 76px;
+}
+
+.others .charge-control .control-btn {
+    margin-left: 27px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.user-info .next-step{
+    color:#8d8d8d;
+    font-weight:normal;
+    *vertical-align:middle;
+}
+.others .read-agreement {
+    margin-top: 0;
+    _margin-top: 12px;
+}
+
+.others .bd-content h3.title {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+/* 翻译结果 */
+.trans-result .bd-content .history-item {
+    border: none;
+}
+
+.trans-result .bd-content .history-item .nav {
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.trans-result .bd-content .history-item .pre-result, .trans-result .bd-content .history-item .next-result {
+    font-size: 14px;
+    font-family: "宋体";
+}
+
+.trans-result .bd-content .history-item .next-result {
+    float: right;
+}
+
+.trans-result .bd-content .history-layout {
+    width: 400px;
+}
+
+.trans-result .bd-content .fix-vertical-middle {
+    background: url("../images/point.png") 0 0 no-repeat;
+    background-position-y: 50%;
+    height: 16px;
+    margin: 0 13px 0 14px;
+    width: 11px;
+}
+
+.accounts i{
+    margin:0 40px 0 0;
+    color: #d81515;
+}
+
+.trans-result .bd-content .fix-vertical-top {
+    vertical-align: top;
+}
+
+.trans-result .bd-content .order-info {
+    margin-left: 100px;
+    line-height: 28px;
+}
+
+.trans-result .bd-content .order-info .big-word {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.trans-result .bd-content .order-info .name-word {
+    color: #333333;
+}
+
+.trans-result .bd-content .order-info .num-word {
+    color: #ab1f1f;
+}
+
+.trans-result .bd-content .submit-btn {
+    margin-left: 45px;
+}
+
+.trans-result .bd-content .submit-btn .control-btn {
+    width: 135px;
+    height: 56px;
+    line-height: 56px;
+}
+
+.trans-result .bd-content .control-btn:hover {
+    background-position: -40px -715px;
+}
+
+.trans-result .bd-content .control-btn:active {
+    background-position: -192px -715px;
+}
+
+.trans-result .bd-content .separate-line {
+    display: inline-block;
+    border-left: 1px solid #e5e5e5;
+    min-height: 230px;
+}
+
+.trans-result .history-item .orderRecharge {
+    text-align: center;
+}
+/*充值步骤导航*/
+.steps{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    background:url(steps.jpg) 0 0 no-repeat;
+    line-height: 24px;
+    height: 24px;
+    width:271px;
+}
+.steps-2{
+    background:url(steps-2.jpg) 0 0 no-repeat;
+}
+.steps p{
+    display: inline-block;
+    width: 134px;
+    text-indent: 25px;
+}
+.steps{
+    width:290px;
+}
+.steps p{
+    *display: inline;
+    *zoom:1;
+}
+.steps .step-1{
+    *text-indent:10px;
+}
+.steps .step-1{
+    color:#fff;
+}
+.steps .step-2{
+    color:#434343;
+}
+.steps-2 .step-1{
+    color:#434343;
+}
+.steps-2 .step-2{
+    color:#fff;
+}
+/* 充值 */
+.tips-submit-suc {
+    line-height: 30px;
+    padding-top: 50px;
+    text-align: center;
+    background: url(submit-suc.jpg) center 0 no-repeat;
+    font-size: 14px;
+}
+.accounts label{
+   float:none;
+}
+.in-tip{
+    margin-left: 100px;
+    text-indent: 27px;
+    margin-top: -10px;
+    color: #D81515;
+    background:url(in-tip.jpg) 0 1px no-repeat;
+}
+ .user-info .rest-pay{
+    width:100px;
+    padding:13px 0 8px;
+    text-align: left;
+}
+.user-info .l-title{
+    line-height:30px;
+}
+.t-more{
+ text-indent:10px;
+}
+.recharge .bd-content {
+    width: 860px;
+    min-height: 500px;
+}
+
+.recharge .error-wrap {
+    position: absolute;
+    top: 26px;
+    left: 76px;
+    _left: 2px;
+}
+
+.recharge .precharge-intro {
+    _display: inline;
+    float: right;
+    margin-right: 10px;
+    border: 1px #EEE solid;
+    padding:10px 20px;
+    width:380px;
+    background: #FBFBFB;
+    color: #6A6A6A;
+}
+.recharge .precharge-intro spam{
+
+}
+.recharge .user-info .pay-method {
+    float: left;
+    width: 47%;
+    line-height: 1.5em;
+    font-size: 12px;
+}
+
+.recharge .user-info .pay-method span {
+    font-size: 14px;
+}
+
+.charge-source {
+    margin-left: 16px;
+}
+
+.charge-source .line {
+    margin: 8px 0;
+}
+
+.charge-source.bottom {
+    margin-bottom: 16px;
+    padding-bottom: 18px;
+    border-bottom: 1px #EEE solid;
+}
+.charge-source .bottom .dashed{
+  border-bottom: 1px #EEE dashed;
+}
+.charge-source .radio {
+    float: left;
+    padding: 9px 4px;
+}
+
+.charge-source .radio input {
+    padding: 0;
+    border: 0;
+    width: 13px;
+}
+
+.charge-source .image {
+    float: left;
+    margin-right: 20px;
+}
+
+.charge-source .image .sp {
+    background-image: url('../images/ebank.png');
+    width: 147px;
+    height: 34px;
+}
+
+.charge-source .image .alipay {
+    background-position: -31px -6px;
+    width: 132px;
+    height: 40px;
+}
+
+.charge-source .image .icbc {
+    background-position: -30px -117px;
+}
+
+.charge-source .image .cmb {
+    background-position: -226px -117px;
+}
+
+.charge-source .image .ccb {
+    background-position: -422px -117px;
+}
+
+.charge-source .image .boc {
+    background-position: -422px -161px;
+}
+
+.charge-source .image .abc {
+    background-position: -30px -161px;
+}
+
+.charge-source .image .jiaotong {
+    background-position: -226px -161px;
+}
+
+.charge-source .image .xingye {
+    background-position: -30px -205px;
+}
+
+.charge-source .image .guangda {
+    background-position: -226px -205px;
+}
+
+.charge-source .image .pudongfz {
+    background-position: -422px -205px;
+}
+
+.charge-source .image .guangdongfz {
+    background-position: -30px -249px;
+}
+
+.charge-source .image .zhongxin {
+    background-position: -226px -249px;
+}
+
+.charge-source .image .shenzhenfz {
+    background-position: -226px -293px;
+}
+
+#moreBank {
+    background: url('../images/ebank.png') -185px -77px no-repeat;
+    display: block;
+    padding-left: 24px;
+    width: 80px;
+}
+
+#moreBank:hover {
+    color: #2B5E9A;
+}
+
+#chargeErrorMsg {
+    position: absolute;
+    font-weight: normal;
+    top: 32px;
+    left: 128px;
+    color: #AB1F1F;
+}
+
+.recharge .control-btn, .recharge .read-agreement {
+    margin-left: 27px;
+}
+
+.recharge #rechargeUnit {
+    float: left;
+}
+
+.recharge #trialInfo {
+    display: none;
+}
+
+.recharge #trialInfo label {
+    font-weight: normal;
+    font-size: 12px;
+}
+/*充值结果页面*/
+.pay-result .charge-source .bottom{
+    margin-bottom:20px;
+}
+.pay-result p span,.pay-result-info p span{
+    font-weight:bold;
+}
+.pay-result p{
+    width: 520px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 3;
+    font-size: 14px;
+}
+.pay-result-info p{
+    width: 760px;
+    margin: 0 auto;
+    line-height: 2.5;
+}
+.pay-result-info p a{
+    margin:0 5px;
+}
+.pay-result-info p .control-btn{
+    display:inline-block;
+    margin-left: 5px;
+}
+.pay-fail .tips-submit-fail{
+    text-align: center;
+    margin: 40px 0 0 0;
+    padding: 60px 0 0 0;
+    background: url(pay-fail.jpg) center  0 no-repeat;
+    font-size:14px;
+}
+/* 预付费 */
+.precharge .bd-content {
+    width: 860px;
+    height: 500px;
+    margin: 0 80px;
+}
+
+.precharge .bd-content .user-info {
+    margin-bottom: 40px;
+}
+
+.precharge .bd-content .control-btn {
+    margin: -50px 0 0 155px;
+}
+
+/* 支付 */
+.doc-trans-pay {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.doc-trans-pay .bd-content {
+    margin-top: 10px;
+    height: 500px;
+    font-size: 14px;
+}
+
+.doc-trans-pay .bd-content .form-item-layout {
+    font-weight: bold;
+    line-height: 20px;
+    height: 20px;
+}
+
+.doc-trans-pay .bd-content .user-info {
+    width: 400px;
+    margin: 100px auto;
+}
+
+.doc-trans-pay .bd-content .user-info.message {
+    text-align: center;
+}
+
+.doc-trans-pay .bd-content .user-info .pay-info {
+    margin-left: 90px;
+}
+
+.doc-trans-pay .bd-content .user-info .pay-info .form-item-layout {
+    font-weight: normal;
+}
+
+.doc-trans-pay .bd-content .user-info label {
+    line-height: 20px;
+    height: 20px;
+}
+
+.doc-trans-pay .bd-content .more-unpay {
+    margin-left: 10px;
+}
+
+.doc-trans-pay .bd-content .payTilte {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 关于 */
+.support-des .user-info {
+    margin-bottom: 40px;
+}
+
+.support-des .user-info .pay-method {
+    float: left;
+    width: 50%;
+    line-height: 1.5em;
+}
+
+.support-des .user-info .pay-method .title {
+    font-size: 12px;
+}
+
+.support-des .user-info .pay-method .jianhang {
+    display: inline-block;
+    background: url('../images/indexb.png') no-repeat -143px -273px;
+    width: 214px;
+    height: 43px;
+    margin-bottom: 10px;
+}
+
+.support-des .user-info .pay-method .zhifubao {
+    display: inline-block;
+    background: url('../images/indexb.png') no-repeat -40px -273px;
+    width: 85px;
+    height: 32px;
+}
+
+.support-des .user-info .jianhang-pay {
+    font-size: 14px;
+}
+
+.support-des .user-info .jianhang-pay .value {
+    display: inline;
+    color: #333;
+    padding-left: 0;
+}
+
+/* ToS */
+.terms-of-service p {
+    margin-bottom: 20px;
+}
+
+.terms-of-service p b {
+    font-weight: bold;
+}
+
+.terms-of-service p .partB {
+    float: right;
+}
+
+.terms-of-service ul li {
+    margin-bottom: 30px;
+}
+
+.terms-of-service ul li .align-text {
+    display: block;
+    padding-left: 18px;
+}
+
+.terms-of-service .bd-content {
+    margin-top: 10px;
+    padding: 36px 80px;
+    line-height: 1.8em;
+    color: #666;
+}
+
+/* 投诉 */
+.complain .bd-content {
+    height: 500px;
+}
+
+.complain .bd-content {
+    position: relative;
+    left: 230px;
+}
+
+.complain .bd-content .user-info input {
+    width: 250px;
+}
+
+.complain .bd-content .user-info i {
+    font-weight: normal;
+}
+
+.complain .bd-content .user-info textarea {
+    width: 320px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+.complain .bd-content .user-info .title {
+    padding-left: 175px;
+}
+
+.complain .bd-content .user-info .additional {
+    margin: 6px 0 6px 80px;
+    color: #666;
+}
+
+/* 维护 */
+.keep-in-repair p {
+    line-height: 30px;
+    font-size: 14px;
+    width: 260px;
+    margin: 130px auto;
+}
+
+.keep-in-repair .bd-content {
+    height: 500px;
+}
+
+.trans-result .bd-content {
+    padding: 30px 10px;
+    width: 100%;
+    min-height: 500px;
+}
+
+/* 快翻介绍页 */
+.intro-of-fast .bd-content {
+    width: 100%;
+}
+
+.intro-of-fast .title {
+    margin: 20px 0 20px 20px;
+}
+
+.intro-of-fast .use-of-fast {
+    background: url('../images/why-fast.png') no-repeat;
+    display: inline-block;
+    margin-left: 15px;
+    width: 850px;
+    height: 740px;
+}
+
+.intro-of-fast .detail {
+    margin: 0 0 35px 25px;
+    line-height: 28px;
+    color: #000;
+}
+
+.intro-of-fast .detail-title {
+    width: 218px;
+    font-weight: bold;
+}
+
+.intro-of-fast .detail-content {
+    display: inline-block;
+    overflow: hidden;
+    width: 218px;
+    height: 28px;
+    color: #e5e5e5;
+}
+
+.intro-of-fast .detail-content span {
+    color: #000;
+}
+
+.intro-of-fast .tips {
+    margin: 25px;
+}
+
+/* 译文详情 */
+.trans-result div.bd-content-special {
+    width: 100%;
+    min-height: 500px;
+    background: url("../images/bg-y.png") repeat-y;
+    padding: 0;
+}
+
+.trans-result div.bd-content .message {
+    margin: 100px 0;
+    text-align: center;
+}
+
+.trans-result .resultView-nav {
+    width: 127px;
+    float: left;
+}
+
+.trans-result .resultView-nav li {
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    margin: 45px 0;
+    line-height: 30px;
+}
+
+.trans-result .resultView-nav li.current {
+    background: #EEE;
+}
+
+.trans-result .bd-content .resultView-content {
+    border: 1px solid #E1E1E1;
+    float: left;
+    margin: 24px 19px;
+    overflow: hidden;
+    padding: 14px 29px 36px;
+    zoom: 1;
+}
+
+.trans-result .bd-content .resultView-content .history-layout {
+    background-color: #F6F7F9;
+    width: 333px;
+}
+
+.trans-contents {
+    margin-top: 10px;
+}
+
+.trans-result .history-item .trans-result {
+    vertical-align: middle;
+}
+
+.copy {
+    color: #0369DC;
+    display: inline-block;
+    float: right;
+    margin-left: 13px;
+}
+
+.trans-result .noticeCon .title {
+    color: #959494;
+    display: block;
+    margin: 12px 0 0;
+    font-size: 13px;
+}
+
+.trans-result .noticeCon p {
+    line-height: 22px;
+}
+
+.trans-result .notice-label {
+    float: left;
+    display: inline-block;
+    width: 50px;
+}
+
+.trans-result .notice-content {
+    display: inline-block;
+    width: 260px;
+}
+
+/* 服务说明 文档档次 */
+#doc-table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 1.5em;
+}
+
+#doc-table2 {
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+    line-height: 1.5em;
+}
+
+#fast-table {
+    table-layout: fixed;
+    width: 75%;
+    border-collapse: collapse;
+    line-height: 1.5em;
+}
+
+#doc-table thead td, #doc-table2 thead td, #fast-table thead td {
+    font-weight: bold;
+    background: #F4F4F4;
+    color: #2B5E9A;
+}
+
+#doc-table td, #doc-table2 td, #fast-table td {
+    border: 1px solid #EEE;
+    padding: 8px;
+}
+
+#doc-table .level, #doc-table2 td, #fast-table .level {
+    width: 10%;
+    padding-left: 20px;
+}
+
+#doc-table .main {
+    width: 27%;
+}
+
+#fast-table .main {
+    width: 45%;
+}
+
+#doc-table .sub {
+    width: 20%;
+}
+
+#fast-table .sub {
+    width: 27%;
+}
+
+#doc-table i, #doc-table2 i {
+    font-weight: bold;
+}
+
+#doc-table .top {
+    padding-top: 20px;
+    vertical-align: top;
+}
+
+/* intro-of-fast.vm  gonghao@2012-09-24 */
+.ml25 {
+    margin-left: 25px;
+    width: 100%;
+}
+
+/* about.vm gonghao@2012-09-26 */
+h1, h2, h3, h4 {
+    color: #434343;
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+h3.subtitle {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.others .user-info h3 b.sub-title {
+    color: #434343;
+    font-size: 1.2em;
+    font-weight: normal;
+    padding: 0;
+}
+.lang-arrows {
+    font-family: SimSun;
+    padding:0 5px;
+}
