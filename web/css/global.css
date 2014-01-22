@@ -8,7 +8,7 @@ body {
     margin: 0;
     font-size: 12px;
     font-family: Arial, sans-serif;
-    color: #434343;
+
     background-color: #fff;
 }
 
@@ -251,6 +251,12 @@ textarea {
 
 #hd .login-suc .logout-div {
     display: block;
+}
+
+.footer {
+    width: 900px;
+    padding: 0 auto;
+    margin: 0 auto;
 }
 
 /* 高亮 */
@@ -1095,4 +1101,40 @@ label {
 
 .tips .close:hover {
     background-color: transparent;
+}
+
+/* my css*/
+.foot {
+    width: 25%;
+}
+
+.foot-hr {
+    width: 80%;
+    margin-left: 0;
+    padding: 0;
+}
+
+.hr-color {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+}
+
+.bw {
+    width: 900px;
+}
+
+.foot-menu {
+    margin-bottom: 8px
+}
+
+.foot-menu-content ul li {
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.foot-line {
+    margin: 0 auto;
+    padding: 0 auto;
 }

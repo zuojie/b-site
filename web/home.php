@@ -182,75 +182,70 @@
             </div>
         </div>
     </div>
-	
-    <div class="tab-wrap">
-        <div class="tab">
-            <div class="tab-sec1">
-                <div class="menu">常见问题</div>
-                <div class="menu-content">
-                    <ul>
-                        <li class="notice">
-                            <i></i>
-                            <a href="" target="_blank">1.关于服务时间、质量保证、发票开取</a>
-                        </li>
-                        <li class="notice">
-                            <i></i>
-                            <a href="" target="_blank">2.关于收费标准等</a>
-                        </li>
-                        <li class="notice">
-                            <i></i>
-                            <a href="" target="_blank">3.订单提交及支付方法</a>
-                        </li>
-                        <li class="notice">
-                            <i></i>
-                            <a href="" target="_blank">4.结果查收及修改</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="tab-sec2">
-                <div class="menu">联系方式</div>
-                <div class="contact-title">免费咨询：</div>
-                <div class="contact-num">400-911-9797</div>
-            </div>
-            <div class="tab-sec1 tab-sec3">
-                <div class="menu">最新公告</div>
-                <div class="menu-content">
-                    <ul>
-                        <li class="notice">
-                            <i></i>
-                            <a href="" target="_blank">1.【新功能】质量更有保障！请猛击了解！</a>
-                        </li>
-                        <li class="notice">
-                            <i></i>
-                            <a href="" target="_blank">2.易信粉丝福利：人工翻译限时免费！</a>
-                        </li>
-                        <li class="notice">
-                            <i></i>
-                            <a href="" target="_blank">3.【招聘】高薪招聘“小语种”兼职译员</a>
-                        </li>
-                        <li class="notice">
-                            <i></i>
-                            <a href="" target="_blank">4.【招聘】参加在线测试-成为有道兼职译员</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+</div>
+
+<hr class="bw hr-color footer-line">
+<div class="footer">
+    <div class="foot fl">
+        <div class="foot-menu fontmicro size18">翻译专长领域</div>
+        <hr class="foot-hr hr-color">
+        <div class="foot-menu-content fontsong size12">
+            <ul>
+                <li>金融</li>
+                <li>医疗</li>
+                <li>能源</li>
+                <li>文化</li>
+                <li>机械</li>
+                <li>农业</li>
+                <li>信息技术</li>
+            </ul>
         </div>
     </div>
-    <div class="cooperator-wrap">
-        <div class="cooperator">
-            <span>权威合作机构</span>
-            <a href="http://www.tac-online.org.cn/" class="cooper-1" target="_blank" rel="nofollow">中国翻译协会</a>
-            <a href="http://edu.163.com/" class="cooper-2" target="_blank" rel="nofollow">网易教育频道</a>
-            <a href="http://www.fltrp.com/" class="cooper-3" target="_blank" rel="nofollow">外语教学与研究出版社</a>
-            <a href="http://www.crup.com.cn/" class="cooper-4" target="_blank" rel="nofollow">人大出版社</a>
-            <a class="cooper-5" rel="nofollow">教育出版社集团</a>
+
+    <div class="foot fl">
+        <div class="foot-menu fontmicro size18">关于我们</div>
+        <hr class="foot-hr hr-color">
+        <div class="foot-menu-content">
+            <ul>
+                <li>企业介绍</li>
+                <li>企业文化</li>
+                <li>专家团队</li>
+                <li>战略合作伙伴</li>
+                <li>联系我们</li>
+            </ul>
         </div>
     </div>
+    <div class="foot fl">
+        <div class="foot-menu fontmicro size18">帮助中心</div>
+        <hr class="foot-hr hr-color">
+        <div class="foot-menu-content">
+            <ul>
+                <li>服务说明</li>
+                <li>常见问题</li>
+                <li>下单指南</li>
+                <li>如何付款</li>
+            </ul>
+        </div>
+    </div>
+    <div class="foot fl">
+        <div class="foot-menu fontmicro size18">YUP旗下网站</div>
+        <hr class="foot-hr hr-color">
+        <div class="foot-menu-content">
+            <ul>
+                <li>YUP全球多语呼叫中心</li>
+                <li>YUP全球多语培训中心</li>
+                <li>YUP产业情报</li>
+                <li>YUP环球博览</li>
+                <li>YUP sinoCast</li>
+                <li>更多... ...</li>
+            </ul>
+        </div>
+    </div>
+    <div class="clear"></div>
 </div>
 
 <div id="ft">
+    <div class="fontmicro size18">YUP团队</div>
     <p>
         <span>版权所有©2002----2013</span>
         <span>元培世纪(北京)教育科技有限公司 | </span>
