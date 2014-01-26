@@ -1,0 +1,58 @@
+<?php
+require_once('./mysql_db.class.php');
+session_start();
+$db=new db();
+$login_user = $_SESSION['admin_usr'];
+$user_role = $_SESSION['user_role'];
+$sql = "select * from admin_tbl where name='".$login_user."'";
+$rs=$db->query($sql);
+$row=$rs->fetch_array();
+?>
+<body style="font-size:9px">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="17" valign="top" background="images/mail_leftbg.gif"><img src="images/left-top-right.gif" width="17" height="29" /></td>
+    <td valign="top" background="images/content-bg.gif"><table width="100%" height="31" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+      <tr>
+      <td height="31"><div class="titlebt">个人信息</div></td>
+      </tr>
+    </table></td>
+    <td width="16" valign="top" background="images/mail_rightbg.gif"><img src="images/nav-right-bg.gif" width="16" height="29" /></td>
+  </tr>
+  <tr>
+    <td valign="middle" background="images/mail_leftbg.gif">&nbsp;</td>
+    <td valign="top" bgcolor="#F7F8F9"><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td colspan="2" valign="top">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td valign="top">&nbsp;</td>
+      </tr>
+      
+      <tr>
+        <td colspan="4">   
+         <table width="100%" >
+            <tr><td width="10%">用户名:</td><td><?php echo $row['name']?></td></tr> 
+            <tr><td width="10%">角色:</td><td><?php echo $row['role']?></td></tr> 
+	<?php
+	if($user_role == "manager" or $user_role == "sales") {
+		echo "<tr><td width='10%'>负责业务:</td><td>";
+		$sql1 = "select * from admin_tbl where name = '".$login_user."' and role = '".$user_role."'";
+		$rs1=$db->query($sql1);
+		$row1=$rs1->fetch_array();
+		echo $row1['business'];
+	}
+	echo "</td></tr>";
+	?>
+         </table>
+        </td>
+      </tr>
+    </table></td>
+    <td background="images/mail_rightbg.gif">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="bottom" background="images/mail_leftbg.gif"><img src="images/buttom_left2.gif" width="17" height="17" /></td>
+    <td background="images/buttom_bgs.gif"><img src="images/buttom_bgs.gif" width="17" height="17"></td>
+    <td valign="bottom" background="images/mail_rightbg.gif"><img src="images/buttom_right2.gif" width="16" height="17" /></td>
+  </tr>
+</table>
+</body>

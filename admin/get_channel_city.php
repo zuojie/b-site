@@ -1,0 +1,19 @@
+<?php
+header("Content-type:text/html;charset=utf-8"); 
+require_once('./mysql_db.class.php');
+$db = new db();
+$father = $_GET["channel_area"];
+if($father == '') {
+	echo '所有渠道(城市)_fuck_ie';
+} else {
+	$qsql = "select distinct(`channel_city`) from `channel_tbl` where `channel_area` = '@father'";
+	$qsql = str_replace("@father", $father, $qsql);
+	$rs=$db->query($qsql);
+	$num = $rs == '' ? 0 : $rs->num_rows;
+	for ($i = 0; $i < $num; $i ++) {
+	    $tmp = $rs->fetch_assoc();
+	    $manu = $tmp["channel_city"];
+	    echo $manu."_fuck_ie";
+	}
+}
+?>

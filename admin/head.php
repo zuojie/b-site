@@ -1,0 +1,22 @@
+<?php
+header("Content-type:text/html;charset=utf-8"); 
+require('./mysql_db.class.php');
+require("page_class.php");   
+require("get_qrcode.php");   
+$db=new db();
+
+if(isset($_GET['p'])) {
+	$_GET['p'] = ($_GET['p']>0?$_GET['p']:1);
+} else {
+	$_GET['p'] = 1;
+}
+//每页显示的条数   
+$page_size=20;   
+//每次显示的页数   
+$sub_pages=10;   
+//得到当前是第几页   
+$pageCurrent=$_GET["p"];   
+//if(!$pageCurrent) $pageCurrent=1;
+//当前条数   
+$pag=($_GET['p'] - 1)*$page_size;
+?>

@@ -1,0 +1,54 @@
+雇员表：
++-----------+
+| name      |用户名
+| password  |密码
+| role      |职位（渠道专员，客户经理，管理员，译员）
+| business  |负责业务/渠道
++-----------+
+渠道表：
++--------------------+
+| channel_area       |渠道大区（华东，华南，华西，华北，华中）
+| channel_city       |渠道城市
+| channel_university |渠道学校
+| channel_manager    |渠道负责人
++--------------------+
+焦点公告表：
++---------------+
+| title         |公告标题
+| up_time       |更新时间
+| modify_people |更新人
+| article       |正文
++---------------+
+订单表：
++-----------------+
+| ord_id          |订单id
+| ord_user        |下单用户
+| quality_level   |翻译质量
+| trans_lang_src  |翻译源语言
+| trans_lang_dst  |翻译目的语言
+| doc_type        |文档类型
+| doc_title       |文档标题
+| doc_field       |文档所属范畴
+| words_num       |字数
+| price           |价格
+| recv_email      |接收邮箱
+| ord_stat        |订单状态
+| ord_finish_time |订单完成时间
+| ord_owner       |订单负责人
+| ord_remark      |订单备注
+| ord_type        |订单类型（正常/异常）
+| ord_time        |下单时间
++-----------------+
+用户表：
++--------------------+
+| name               |用户名
+| password           |密码
+| mail_addr          |邮件地址
+| phone              |电话
+| user_type          |用户类型（公司，个人）
+| money              |积分
+| try_money          |体验积分
+| channel_area       |来源渠道（大区）
+| channel_city       |来源渠道（城市）
+| channel_university |来源渠道（学校）
++--------------------+
