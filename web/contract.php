@@ -2,8 +2,6 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script type="text/javascript" src="./js/textStatic.js"></script>
-    <script type="text/javascript" src="./js/monitor.js" charset="utf-8"></script>
     <title>元培专业人工翻译 | 文档翻译</title>
     <meta name="description" content="中国翻译协会认证的正规翻译公司，在线翻译立等可取，文档翻译多轮审核、性价比高。提供英语专业翻译、英文简历、合同翻译、论文翻译等服务。咨询电话400-6608-163">
     <meta name="keywords" content="在线翻译，英文翻译，英语专业翻译，英文简历翻译，合同翻译，论文翻译，公司简介翻译、产品介绍翻译">

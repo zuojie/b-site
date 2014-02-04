@@ -2,8 +2,6 @@
 <html>
 <head>
 	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<script type="text/javascript" src="./js/textStatic.js"></script>
-		<script type="text/javascript" src="./js/monitor.js" charset="utf-8"></script>
         <title>元培专业人工翻译 | 在线翻译 | 英文翻译</title>
         <meta name="description" content="">
         <meta name="keywords" content="在线翻译，英文翻译，英语专业翻译，英文简历翻译，合同翻译，论文翻译，公司简介翻译、产品介绍翻译">
@@ -11,14 +9,14 @@
         <link rel="stylesheet" href="css/global.css">
         <link rel="stylesheet" href="css/indexb.css">    
 	    <!--[if IE 6]>
-        <script src="./js/home/DD_belatedPNG_0.0.8a.js"></script>
+        <script src="./js/DD_belatedPNG_0.0.8a.js"></script>
         <script>
             DD_belatedPNG.fix('.big-bg-order-area, .btn-order, .notice i, .tips .arrow, .tips .close, .fast-trans-info, .cando, .canntdo, .doc-trans-info');
         </script>
         <![endif]-->
 	    <script type="text/javascript" async="" src="./js/conversion.js"></script>
-	    <script type="text/javascript" async="" src="./js/home/fpass.js"></script>
-        <script async="true" type="text/javascript" src="./js/home/roundtrip.js"></script>
+	    <script type="text/javascript" async="" src="./js/fpass.js"></script>
+        <script async="true" type="text/javascript" src="./js/roundtrip.js"></script>
         <script async="true" type="text/javascript" src="./js/RLBFEI7CUZATHM373AWPCD"></script>
 </head>
 
@@ -59,7 +57,7 @@
         <hr width=900px>
         <div id="banner" class="banner">
             <div >
-                <img class="banner-img" src="./images/banner.jpg"></img>
+                <a href="file.php"><img class="banner-img" src="./images/banner.jpg"></img></a>
             </div>
         </div>
         <hr width=900px>

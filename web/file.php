@@ -2,9 +2,6 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script type="text/javascript" src="./js/monitorStatic.js"></script>
-    <script type="text/javascript" src="./js/textStatic.js"></script>
-    <script type="text/javascript" src="./js/monitor.js" charset="utf-8"></script>
     <title>元培专业人工翻译 | 文档翻译</title>
     <meta name="description" content="中国翻译协会认证的正规翻译公司，在线翻译立等可取，文档翻译多轮审核、性价比高。提供英语专业翻译、英文简历、合同翻译、论文翻译等服务。咨询电话400-911-9797">
     <meta name="keywords" content="在线翻译，英文翻译，英语专业翻译，英文简历翻译，合同翻译，论文翻译，公司简介翻译、产品介绍翻译">
@@ -255,21 +252,7 @@
         <iframe id="lim:share" name="lim:share" height="0" width="0" src="./shared.htm"></iframe>
     </div>
 </div>
-<div id="InviteWindow" style="z-index: 2147483647; visibility: hidden;">
-    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="100%" height="100%" id="inviteFlash">
-        <param name="movie" value="http://st16.live800.com/live800/chatClient/invite/theme/live800/images/invite.swf">
-        <param name="quality" value="high">
-        <param name="wmode" value="transparent">
-        <embed id="inviteFlash" src="http://st16.live800.com/live800/chatClient/invite/theme/live800/images/invite.swf" quality="high" width="100%" height="100%" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.adobe.com/go/getflashplayer">
-    </object>
-    <div id="invite_title">邀请</div>
-    <div id="invite_text">欢迎您，来自 北京市 的朋友<p>请问有什么可以帮您?</p></div>
-    <div id="invite_btn">
-        <a target="_blank" href="javascript:void(0);" style="text-decoration:none" onclick="return globalInviteWindow.accept(this);"><button class="accept"><span>接　受</span></button></a>
-        <a href="javascript:void(0);" style="text-decoration:none"><button class="cancel" onclick="globalInviteWindow.refuse();"><span>忽　略</span></button></a>
-    </div>
-    <style type="text/css">#invite_btn button{background-image:url(http://st10.live800.com/live800/chatClient/invite/theme/live800/images/invite_bt.gif);background:url(http://st10.live800.com/live800/chatClient/invite/theme/live800/images/invite_bt.gif) no-repeat !important}}</style><link type="text/css" href="./css/invite1.css" rel="stylesheet">
-</div>
+
 <iframe id="lim_current" width="100%" src="about:blank" scrolling="auto" border="0" frameborder="0" style="display: none; position: absolute; top: 0px; left: 0px; border: none; z-index: -1; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;"></iframe>
 <div id="lim_mini_chat" style="display: none;">
     <div>

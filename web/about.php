@@ -2,9 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script type="text/javascript" src="./js/textStatic.js"></script>
-    <script type="text/javascript" src="./js/monitor.js" charset="utf-8"></script>
-     <title>元培专业人工翻译 | 关于我们</title>
+    <title>元培专业人工翻译 | 关于我们</title>
     <meta name="description" content="中国翻译协会认证的正规翻译公司，在线翻译立等可取，文档翻译多轮审核、性价比高。提供英语专业翻译、英文简历、合同翻译、论文翻译等服务。咨询电话400-6608-163">
     <meta name="keywords" content="在线翻译，英文翻译，英语专业翻译，英文简历翻译，合同翻译，论文翻译，公司简介翻译、产品介绍翻译">
     <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
@@ -73,7 +71,7 @@
                     <li class="nav-li"><a href="more.php" class="clog-js size16 nav-l" data-act="examples" hidefocus="true">更多服务</a></li>
                     <li class="nav-li-r" style="margin-right: 3px;"><a href="about.php" class="current clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true">关于我们</a></li>
                     <li class="nav-li-r">&nbsp;|&nbsp;</li>
-                    <li class="nav-li-r"><a href=".php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true">翻译示例</a></li>
+                    <li class="nav-li-r"><a href="example.php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true">翻译示例</a></li>
                     <li class="nav-li-r">&nbsp;|&nbsp;</li>
                     <li class="nav-li-r"><a href="service.php" class="clog-js size16 nav-a-r nav-r" data-act="examples" hidefocus="true">服务说明&报价</a></li>                                            
                 </ul>
