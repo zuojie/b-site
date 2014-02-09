@@ -786,32 +786,6 @@ label {
     vertical-align: top;
 }
 
-/* 底部链接 */
-
-#ft {
-    background-color: #f9f9f9;
-    line-height: 24px;
-    padding: 29px 0;
-    text-align: center;
-    color: #bcbcbc;
-}
-
-#ft a {
-    line-height: 1.5em;
-    margin: 0 8px;
-    color: #bcbcbc;
-}
-
-#ft a:hover {
-    background-color: transparent;
-    text-decoration: underline;
-    color: #929292;
-}
-
-#ft span {
-    margin: 0 5px;
-}
-
 .login-container {
     width: 460px;
 }
@@ -1136,4 +1110,12 @@ label {
 .foot-line {
     margin: 0 auto;
     padding: 0 auto;
+}
+
+#ft {
+    line-height: 24px;
+    padding: 29px 0;
+    text-align: left;
+    width: 900px;
+    margin: 0 auto;
 }
